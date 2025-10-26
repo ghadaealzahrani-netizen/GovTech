@@ -22,6 +22,91 @@
     "dga_almuraee": "م. خالد المورعي"
   },
 
+  "success_stories": {
+    "global": {
+      "intro": {
+        "en": "A curated look at international GovTech case studies that demonstrate large-scale transformation and citizen impact.",
+        "ar": "نظرة مختارة على قصص نجاح عالمية في مجال الحكومة الرقمية توضح كيف ساهمت المبادرات التقنية في إحداث أثر واسع على الخدمات الحكومية والمجتمعات."
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Estonia – e-Residency program",
+            "ar": "إستونيا – برنامج الإقامة الإلكترونية"
+          },
+          "description": {
+            "en": "Estonia issues secure digital identities to entrepreneurs worldwide, allowing them to start and manage EU-based companies entirely online. The initiative streamlines cross-border business registration and unlocks new digital services for residents and non-residents alike.",
+            "ar": "تمنح إستونيا هويات رقمية آمنة لرواد الأعمال حول العالم، مما يمكّنهم من تأسيس وإدارة شركات داخل الاتحاد الأوروبي بالكامل عبر الإنترنت. ساعد البرنامج على تبسيط تسجيل الأعمال عبر الحدود وتوسيع نطاق الخدمات الرقمية للمقيمين وغير المقيمين."
+          },
+          "link": "https://www.e-resident.gov.ee/"
+        },
+        {
+          "title": {
+            "en": "Singapore – LifeSG super-app",
+            "ar": "سنغافورة – منصة LifeSG الشاملة"
+          },
+          "description": {
+            "en": "Singapore's LifeSG super-app consolidates more than 60 government services into a mobile experience that is tailored to life events such as having a child or moving home. Personalised recommendations, proactive notifications, and secure identity via Singpass simplify citizen interactions.",
+            "ar": "تجمع منصة LifeSG في سنغافورة أكثر من 60 خدمة حكومية في تجربة موحدة عبر الجوال تُهيّأ حول المناسبات الحياتية مثل استقبال مولود جديد أو الانتقال إلى منزل جديد. بفضل التوصيات المخصصة والإشعارات الاستباقية وهوية Singpass الآمنة أصبحت رحلة المواطن أكثر سلاسة."
+          },
+          "link": "https://www.life.gov.sg/"
+        },
+        {
+          "title": {
+            "en": "United Kingdom – GOV.UK Pay & Notify",
+            "ar": "المملكة المتحدة – منصتا GOV.UK Pay وGOV.UK Notify"
+          },
+          "description": {
+            "en": "The UK Government Digital Service built reusable platforms such as GOV.UK Pay and GOV.UK Notify so agencies can launch digital payments and messaging in weeks instead of months. Shared infrastructure reduced delivery costs and raised the consistency of online services.",
+            "ar": "طورت هيئة الخدمات الرقمية البريطانية منصات قابلة لإعادة الاستخدام مثل GOV.UK Pay وGOV.UK Notify لتمكين الجهات الحكومية من إطلاق المدفوعات الرقمية وإشعارات الرسائل خلال أسابيع بدلاً من أشهر. أسهمت البنية المشتركة في خفض تكاليف التطوير ورفع مستوى توحيد الخدمات الإلكترونية."
+          },
+          "link": "https://www.gov.uk/pay"
+        }
+      ]
+    },
+    "local": {
+      "intro": {
+        "en": "Flagship initiatives from Saudi Arabia that show how digital government elevates public services and quality of life.",
+        "ar": "نماذج محلية من المملكة العربية السعودية تبيّن كيف تقود الحكومة الرقمية التحول وترفع جودة حياة المجتمع."
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Absher – integrated digital services",
+            "ar": "أبشر – خدمات رقمية متكاملة"
+          },
+          "description": {
+            "en": "Absher provides Saudis and residents with more than 350 integrated services – from passport renewals to vehicle licensing – through a secure identity layer. The platform reduced in-person visits and enabled 24/7 digital service delivery across the Kingdom.",
+            "ar": "توفر منصة أبشر للمواطنين والمقيمين أكثر من 350 خدمة متكاملة – من تجديد الجوازات إلى إصدار رخص المركبات – عبر طبقة هوية آمنة. ساعدت المنصة في تقليل الزيارات الحضورية وتمكين تقديم الخدمات الرقمية على مدار الساعة في أنحاء المملكة."
+          },
+          "link": "https://www.absher.sa/"
+        },
+        {
+          "title": {
+            "en": "Tawakkalna – national super-app",
+            "ar": "توكلنا – التطبيق الوطني الشامل"
+          },
+          "description": {
+            "en": "Originally launched to manage movement permits during the pandemic, Tawakkalna has evolved into a national super-app for digital health, government notifications, and personal documents. It now links with dozens of agencies to deliver instant verifications and status updates.",
+            "ar": "أُطلق تطبيق توكلنا في البداية لإدارة تصاريح التنقل خلال الجائحة، ثم تطور إلى تطبيق وطني شامل للصحة الرقمية والإشعارات الحكومية والوثائق الشخصية. يتكامل اليوم مع عشرات الجهات لتقديم التحقق الفوري وتحديثات الحالة للمستخدمين."
+          },
+          "link": "https://ta.sdaia.gov.sa/"
+        },
+        {
+          "title": {
+            "en": "Nafath – unified digital identity",
+            "ar": "نفاذ – الهوية الرقمية الموحدة"
+          },
+          "description": {
+            "en": "Nafath is Saudi Arabia's unified digital identity service operated by SDAIA. Citizens can authenticate across public and private services with a single sign-in, elevating trust and security while laying the groundwork for paperless transactions.",
+            "ar": "نفاذ هي خدمة الهوية الرقمية الموحدة في المملكة التي تشغلها سدايا. يمكن للمستخدمين من خلالها الدخول إلى الخدمات الحكومية والخاصة عبر تسجيل دخول واحد، مما يعزز الثقة والأمان ويمهد للمعاملات الخالية من الورق."
+          },
+          "link": "https://www.my.gov.sa/wps/portal/snp/main/services/nafath"
+        }
+      ]
+    }
+  },
+
   "areas": {
     "p9QgQaY56PXLodGv3": {
       "name": "الرعاية الصحية",

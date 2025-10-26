@@ -140,6 +140,8 @@
 
   "menu": [
     "welcome",
+    "success_stories_global",
+    "success_stories_local",
     "collections",
     "scenarios",
     "entities",
@@ -163,6 +165,20 @@
       "check_mod": false,
       "card": false,
       "label": "about",
+      "position": "center"
+    },
+    "success_stories_global": {
+      "icon": "world",
+      "check_mod": false,
+      "card": false,
+      "label": "global_success_stories",
+      "position": "center"
+    },
+    "success_stories_local": {
+      "icon": "thumbUp",
+      "check_mod": false,
+      "card": false,
+      "label": "local_success_stories",
       "position": "center"
     },
     "collections": {

@@ -1,0 +1,122 @@
+{
+    "data": {
+        "entity": {
+            "id": "2vDETBgmhar8qAkh5",
+            "name": "Marine Current Power",
+            "synonyms": ["Tidal Power", "Wave Power"],
+            "imageId": "s3/images/406ceae0-3942-4b86-8f4c-2436842e8e26",
+            "description": {
+                "shortText": "Open flow hydro-turbines designed to harness marine current and tidal energy. By employing tidal current generators that harness marine current, kinetic energy can be effectively exploited and used as an efficient source of renewable energy."
+            },
+            "attachments": [{
+                "id": "4sMTPkCSdS4uCABcS",
+                "name": "Review and assessment of offshore renewable energy resources in morocco’ coastline",
+                "description": "Modern Morocco’s heavy dependence on foreign energy imports, combined with a rapidly growing population and an increasing demand for a better quality of life, makes the country’s future uncertain. Possessing rich and diversified renewable energy resources within its territory encouraged the Moroccan government to make ambitious plans to integrate renewable energy resources into its national grid on a big scale, 42% of its energy generating capacity from renewables by 2020, and 52% by 2030. This paper provides a first assessment of the offshore energy potential available near the coastline of Morocco. After a brief description of operations of offshore wind, tidal and wave power, a first order assessment of their potential is presented and discussed. This study shows that important offshore wind resources are available throughout the Mediterranean and the Atlantic coast of Morocco. This resource peaks between the regions of Al Jadida and Agadir, reaching a speed of 9_m/s. The bulk of the offshore resources are located at the Atlantic coastline of the country. Tidal stream resources are concentrated at the region of Tangier, where tidal speed is up to 1.9_m/s potentially producing 1.58_kW/m2. Oualidia lagoon was studied and found to be capable of producing more than 0.5_MW of electricity if a tidal barrage exploits 10% of its surface. Finally, ocean wave energy is available all over the Atlantic coastline and peaks between the regions of Essaouira and Agadir where the wave heights are between 1.9 and 2.13_m.",
+                "createdAt": "2020-09-02T04:02:45.730Z",
+                "type": "article",
+                "from": "web",
+                "web": {
+                    "sourceUrl": "https://www.tandfonline.com/doi/full/10.1080/23311916.2019.1654659",
+                    "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                },
+                "file": null
+            }, {
+                "id": "8GTzZL4i63Ti7FbqR",
+                "name": "EET SeaUrchin Tidal Turbine Video",
+                "description": "The Sea Urchin is the only marine turbine that is scalable from 1kW to 20MW. The system is suitable for use in both tidal rivers and ocean currents. Using the tides as a source of renewable energy also provides the advantage over other renewable energy sources such as solar, wind and wave, in that they are intermittent, so the Sea urchin can provide more predictable power.",
+                "createdAt": "2017-06-21T03:18:47.125Z",
+                "type": "media",
+                "from": "web",
+                "web": {
+                    "sourceUrl": "https://www.youtube.com/watch?v=MpYnFF6LAnU",
+                    "thumbnailUrl": "https://i.ytimg.com/vi/MpYnFF6LAnU/hqdefault.jpg"
+                },
+                "file": null
+            }, {
+                "id": "9afHcWk2mHQSMseh9",
+                "name": "OCS Ocean Current Tech White Paper",
+                "description": "This White Paper discusses the generation of energy from ocean currents on the U.S. OCS. Resource potential and technologies for capturing ocean current energy are discussed.1 Major potential environmental and economic impacts associated with the technologies discussed herein have been identified from available literature.",
+                "createdAt": "2017-06-21T03:03:06.644Z",
+                "type": "whitepaper",
+                "from": "upload",
+                "web": null,
+                "file": {
+                    "type": "application/pdf",
+                    "sourceUrl": "https://envisioning.s3.amazonaws.com/tdb/files/rz6RsnZAvxKycN4hT"
+                }
+            }, {
+                "id": "KcckNc8Skc5i7gbGP",
+                "name": "The world’s biggest marine power projects",
+                "description": "We use them to give you the best experience. If you continue using our website, we'll assume that you are happy to receive all cookies on this website.",
+                "createdAt": "2017-11-29T01:58:43.545Z",
+                "type": "whitepaper",
+                "from": "web",
+                "web": {
+                    "sourceUrl": "http://www.power-technology.com/features/featureworlds-biggest-marine-power-projects/",
+                    "thumbnailUrl": "http://static.progressivemediagroup.com/uploads/imagelibrary/AK-1000_Biggest_Marine_Porjects.jpg"
+                },
+                "file": null
+            }, {
+                "id": "c9D7Y5hF4YvQAGzLY",
+                "name": "Assessment of Energy Production Potential from Tidal Stream Currents in Morocco",
+                "description": "Energy extracted from the ocean can provide a source of regular and foreseeable electrical production at higher energy densities than any other renewable energy resource. The marine current resource is potentially great and is focused in several sites around the world. The knowledge of the energy potential, its constraints and availability are all prerequisites to determine the possibilities for the implementation of infrastructure to produce energy. They are also required to anticipate the structuring of energy routes and to respond to increasing technological needs. Several Moroccan regions want to take advantage by their coastal domain and play a role in the development of the tidal energy sector. They also want to benefit from the associated economic advantages knowing that the Mediterranean coast length is 550 km and the Atlantic length is 3000 km, respectively. The Copernicus Marine Service ocean products provide key input for such technologies, as they can be employed to help evaluate the accessible ocean energy devices and choose the most attractive sites to exploit the tidal energy projects in Morocco. The goal of this research was to evaluate and analyze the tidal marine current resource at the sites which are potentially suitable for the installation of Horizontal Axis Marine Current Turbines in Morocco. Distributions of available power of tidal energy in the Moroccan region are provided, and three possible areas are suggested for installing tidal energy conversion systems.",
+                "createdAt": "2020-09-02T04:01:01.868Z",
+                "type": "article",
+                "from": "web",
+                "web": {
+                    "sourceUrl": "https://ideas.repec.org/a/gam/jeners/v11y2018i5p1065-d143321.html",
+                    "thumbnailUrl": "https://ideas.repec.org/ideas4.jpg"
+                },
+                "file": null
+            }, {
+                "id": "hqkHLF5qBzCcRrHBG",
+                "name": "Cost-efficient, high-performance tidal technology soon coming to Orkney, Scotland",
+                "description": "Orbital Marine Power’s first commercial floating tidal turbine demonstrator will soon showcase its full potential in real-life conditions. The O2 will be the world’s most powerful technology of its kind able to meet the annual electricity needs of over 1 700 UK homes.",
+                "createdAt": "2020-08-26T12:58:04.106Z",
+                "type": "article",
+                "from": "web",
+                "web": {
+                    "sourceUrl": "https://cordis.europa.eu/article/id/421945-cost-efficient-high-performance-tidal-technology-soon-coming-to-orkney-scotland",
+                    "thumbnailUrl": "https://cordis.europa.eu/docs/results/images/2020-08/421945.jpg"
+                },
+                "file": null
+            }, {
+                "id": "nbznkFcBtgAC82zF2",
+                "name": "Marine-current power generation by diffuser-augmented floating hydro-turbines",
+                "description": "The oceans represent a huge energy reservoir consistent of stored solar and gravitational energy in several forms, causing ceaseless movements of an enormous volume of water. This energy is generally diffuse but, in many cases, significantly more concentrated than other forms of renewable energy already being successfully exploited on land. Among the ocean-energy resources, wave and marine-current energy emerge as the most promising options for massive ocean-energy generation in the immediate future. The main objective of this paper is to focus on trends that can lead to a feasible massive marine-current-power future scenario, and to introduce a technological solution which could help to reach that goal. We shall describe the main features of a floating marine-current-power system that introduces conceptual innovations in order to improve the technical and economical performance.",
+                "createdAt": "2020-08-26T12:31:37.964Z",
+                "type": "article",
+                "from": "web",
+                "web": {
+                    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0960148107001218",
+                    "thumbnailUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S0960148107X01745-cov150h.gif"
+                },
+                "file": null
+            }, {
+                "id": "sm37oTCT2M7MxeRN7",
+                "name": "Comparative Effects of Climate Change and Tidal Stream Energy Extraction in a Shelf Sea",
+                "description": "The environmental implications of tidal stream energy extraction need to be evaluated against the potential climate change impacts on the marine environment. Here we study how hypothetical very large tidal stream arrays and a business as usual future climate scenario can change the hydrodynamics of a seasonally stratified shelf sea. The Scottish Shelf Model, an unstructured grid three‐dimensional ocean model, has been used to reproduce the present and the future state of the NW European continental shelf. Four scenarios have been modeled: present conditions and projected future climate in 2050, each with and without very large scale tidal stream arrays in Scottish Waters (UK). It is found that where tidal range is reduced a few centimeters by tidal stream energy extraction, it can help to counter extreme water levels associated with future sea level rise. Tidal velocities, and consequently tidal mixing, are also reduced overall by the action of the tidal turbine arrays. A key finding is that climate change and tidal energy extraction both act in the same direction, in terms of increasing stratification due to warming and reduced mixing; however, the effect of climate change is an order of magnitude larger.",
+                "createdAt": "2020-08-26T14:30:25.407Z",
+                "type": "article",
+                "from": "web",
+                "web": {
+                    "sourceUrl": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JC013832#:~:text=Comparing%20tidal%20stream%20energy%20extraction,effect%20on%20sea%20level%20height.",
+                    "thumbnailUrl": "https://agupubs.onlinelibrary.wiley.com/cms/asset/2bcde52d-5596-450a-86e4-2b1879957879/jgrc.v123.7.cover.jpg"
+                },
+                "file": null
+            }, {
+                "id": "stMSKxPaiTD2snsLN",
+                "name": "Tidal Turbines Help Light Up Manhattan",
+                "description": "Turbines are being submerged in the East River to generate electricity from rapid tidal currents.",
+                "createdAt": "2017-06-30T17:07:12.717Z",
+                "type": "news",
+                "from": "web",
+                "web": {
+                    "sourceUrl": "https://www.technologyreview.com/s/407732/tidal-turbines-help-light-up-manhattan/",
+                    "thumbnailUrl": "https://d267cvn3rvuq91.cloudfront.net/i/legacy/turbine_x116.jpg?sw=1200"
+                },
+                "file": null
+            }]
+        }
+    }
+}

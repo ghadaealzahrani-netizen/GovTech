@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "jU2x3BnStizXZMem4",
+            "name": "Food Production & Monitoring Through Sensors",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/FOODPRODUCTIONS",
+            "description": {
+                "shortText": "Numerous sensors that can detect temperature, humidity, and other factors are the foundation of IoT technology. These sensors may be used to measure both the production state and the shipping time. As a result, F&B organizations are able to actively monitor a variety of data points related to food safety."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

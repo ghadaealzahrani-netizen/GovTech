@@ -1,0 +1,305 @@
+
+  {
+   
+  "margin_": [
+    "mn:5px",
+    "sm:10px",
+    "md:20px",
+    "lg:30px",
+    "xl:50px",
+    "xxl:70px"
+  ],
+  
+  "h_": [
+    "mn:5px",
+    "sm:10px",
+    "md:20px",
+    "lg:30px",
+    "xl:50px",
+    "xxl:70px"
+  ],
+
+  "color_options": [
+    "mainColor",
+    "secondary",
+    "disabled",
+    "info",
+    "go",
+    "border",
+    "object"
+  ], 
+
+  "page_modes":[
+    "single_page ",
+    "multi_pages > requires a MOD.navigator"
+  ],
+
+  "content_modules_list": [
+
+    {
+      "module": "button",
+      "margin": "mn | sm | md | lr | xl | xxl",
+      "label": "BUTTON LABEL",
+      "size": "sm | md | lg",
+      "mode": "external | internal | email | submit (form) | cookie",
+      "dest": "destination URL | cookie name",
+      "icon": "popup | arrRight | infoC | mail ...", 
+    },
+    
+    {
+      "module": "page",
+      "label":"test",
+      "content_modules":[
+        { "module1":"etc" }
+      ]
+    },
+
+    { "module": "dash",  "margin": "mn | sm | md | lr | xl | xxl", "color": "object" },
+
+    { "module": "hr",  "margin": "mn | sm | md | lr | xl | xxl", "color": "border" },
+
+    {
+      "module": "_division",
+      "check_arr": "off | arr_name",
+      "check_obj": "off | obj_name",
+      "check_mod": "off | mod_name",
+       "margin": "mn | sm | md | lr | xl | xxl",
+      "label": "sci_fact | labels.ref",
+      "color": "main"
+    },
+
+    {
+      "module": "message",
+      "margin": "mn | sm | md | lr | xl | xxl",
+      "size": "mn | lg << TODO outros tamanhos no app.css",
+      "width":"col1",
+      "msg": "message text loren ipsum",
+      "color": "stop | go | main | secondary | shift"
+    },
+
+    { "module": "readiness",  "margin": "mn | sm | md | lr | xl | xxl", },
+
+    { "module": "readiness_scores", "margin": "minimal" },
+
+    { "module": "trl", "margin": "minimal" },
+
+    { "module": "trl_readiness",  "margin": "mn | sm | md | lr | xl | xxl", },
+
+    { "module": "summary", "margin": false, "src": "summary" },
+
+    {
+      "module": "text",
+      "margin": false,
+      "src": "description | LANG.ref",
+      "section": false,
+      "auto_links": false
+    },
+
+    {
+      "module":"players",
+      "margin":"lg",
+      "list":[
+        {
+          "name": "ENVISIONING",
+          "description": [
+            "Envisioning is a virtual research institute that provides technological foresight to decision makers worldwide. Our global team of academics, hackers and designers studies technologies to understand the acceleration of change."
+          ],
+          "link": {
+            "label": "envisioning.io",
+            "url": "https://envisioning.io"
+          }
+        }
+      ]
+    },
+
+    {
+      "module":"related_projects",
+      "margin":"lg",
+      "list":[
+        {
+          "url": "https://viz.envisioning.io/sicpa/trust/",
+          "label": "Future of Trust"
+        },
+        {
+          "url": "https://viz.envisioning.io/cities/",
+          "label": "Envisioning Cities"
+        }
+      ]
+    },
+
+    {
+      "module":"popup_list",
+      "margin":"lg",
+      "type":"mini_banner",
+      "list":[
+        {
+          "lb":false, 
+          "img": {
+            "mode": "manual",
+            "src":false,
+            "id":  "related2.png"
+          },
+          "alt":"mobility",
+          "url": "https://viz.envisioning.io/techdetector/mobility"
+        } 
+        ...
+      ]
+    },
+  
+    {
+      "module": "lang_text",
+       "margin": "mn | sm | md | lr | xl | xxl",
+      "ref": "reference to LANG.db object"
+    },
+
+    {
+      "module": "icons_list",
+       "margin": "mn | sm | md | lr | xl | xxl",
+      "icons": [
+        { "icon": "clockwise25", "label": "order", "check_mod": "off | mod_name" },
+        { "icon": "highlight25", "label": "highlight", "check_mod": "off | mod_name" },  
+        { "icon": "equalizer25", "label": "preferences", "check_mod": "off | mod_name" }
+      ]
+    },
+
+    { "module": "list", "margin": false, "src": "more" },
+
+    {
+      "module": "question",
+      "margin": false,
+      "tx": "Como isso poderia afetar a democracia?",
+      "color": "object"
+    },
+
+    { "module": "asterisk", "margin": false, "src": "asterisk", "color": "main" },
+
+    {
+      "module": "quote",
+      "text": "required",
+      "author": "required",
+      "margin": "extra"
+    },
+
+    { "module": "auto_quote", "src": "summary", "margin": "extra" },  
+
+    {
+      "module": "card_name", 
+      "margin": false,
+      "mcolor": "true | false",
+      "slabel": "false | collection",
+      "check_mod": "off | mod_name",
+      "scolor": "true | false"
+    },
+
+    {
+      "module": "image",
+      "file": "localFile.png | false",  
+      "margin": false,
+      "size": "w:h | false = 16:9",
+      "bgcolor": "false | transparent | #hex | theme_id",
+      "bgmode": "fill | fit",
+      "alt":"alt description text"
+    },
+
+    {
+      "module": "vector_image",
+      "file": "help/help_entities.svg", 
+      "margin": false, 
+      "size": "w:h | false = 16:9",
+      "bgcolor": "false | transparent | #hex | theme_id"
+    },  
+
+    {
+      "module": "section_mosaic",
+      "margin": false,
+      "size":  "w:h | false = 16:9",
+      "colorize": "true | false"
+    }, 
+
+    { "module": "prediction", "margin": "extra" },
+
+    { "module": "groups", "margin": "extra" },
+
+    { "module": "sources",  "margin": "mn | sm | md | lr | xl | xxl", },
+
+    {
+      "module": "info",
+      "margin": false,
+      "src": "foundingYear",
+      "label": "optional",
+      "label_color": "secondary"
+    },
+
+    {
+      "module": "popup_buttom",
+      "margin": false,
+      "label": "learn_more",
+      "src": "url"
+    },
+
+    {
+      "module": "data_info",
+      "margin": false,
+      "chk": "type",
+      "data_src": "group_type",
+      "label": "optional",
+      "label_color": "secondary"
+    },
+
+    {
+      "module": "survey_answers",
+       "margin": "mn | sm | md | lr | xl | xxl", 
+      "survey_id": "survey id"
+    },
+
+    {
+      "module": "video",
+       "margin": "mn | sm | md | lr | xl | xxl",
+      "src": "vimeo",
+      "videoId": "367755154",
+      "size": false
+    },
+
+    { "module": "tags", "src": "domain", "margin": false },
+
+    { "module": "scenario", "margin": false, "mode": "minilist / list / banner" },
+
+    {
+      "module": "collection",
+      "margin": false,
+      "mode": "minilist_item / list_item / banner"
+    },
+
+    {
+      "module":"credits",
+      "margin":false,
+      "list":[
+        { "division": true, "label": "ENVISIONING TEAM" },
+        { "name": "Arthur Soares", "role": "HEAD OF PRODUCT" },
+        { "name": "Cintia Ferreira", "role": "HEAD OF OPERATIONS" },
+        { "name": "Fabio Andrade", "role": "HEAD OF DEVELOPMENT" },
+        { "name": "Laura Del Vecchio", "role": "Lead Editor & Review" },
+        { "name": "Lucas Munhoz", "role": "DEVELOPMENT" },
+        { "name": "Marcello Antunes", "role": "DEVELOPMENT" },
+        { "name": "Michell Zappa", "role": "FOUNDER" },
+        { "name": "Rafael Pelosini", "role": "HEAD OF GROWTH" },
+        { "name": "Thais Tomazi", "role": "PROJECT MANAGER" },
+        { "name": "Thiara Cavadas", "role": "HEAD OF RESEARCH" },
+        { "name": "Thomaz Rezende", "role": "HEAD OF DESIGN" },
+        { "division": true, "label": "COLLABORATORS" },
+        { "name": "Andrew Gamertsfelder", "role": "reviewer" },
+        { "name": "Beatryz Rodrigues", "role": "Researcher" },
+        { "name": "Marcello Antunes", "role": "DEVELOPMENT" },
+        { "name": "Quentin Ladetto", "role": "Deftech Program Director" }
+      ]
+    },
+
+    {
+      "module":"copyright",
+      "margin": "xl"
+    },
+
+
+    {}
+  ]
+}

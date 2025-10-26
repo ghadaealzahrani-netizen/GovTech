@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "dxmr0803zVgUlEo0E",
+            "name": "Learning Experience Platform",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/LEARNINGEXPERIENCEPLATFORM",
+            "description": {
+                "shortText": "A learning experience platform (LEP) is the front-end portal layer that typically sits on top of a learning management system (LMS). LEPs are used to enhance an individual learner’s interactions and engagement via greater personalization, content curation and expanded breadth of content."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

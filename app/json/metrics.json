@@ -1,0 +1,938 @@
+{
+  "trl": {
+    "title": "technology_readiness_level",
+    "short_title": "TRL",
+    "range": [1, 9],
+    "summary": {
+      "en": "A measurement system developed by NASA, Technology Readiness Level (TRL) ranges from 1 to 9 to describe the maturity level of a particular technology.",
+      "de": "Das von der NASA entwickelte Messsystem Technology Readiness Level (TRL) reicht von 1 bis 9 und beschreibt den Reifegrad einer bestimmten Technologie.",
+      "ar": "هو المقياس الذي طورته ناسا لمستوى جاهزية التقنية (TRL) بتصنيف من 1 إلى 9 لتحديد مستوى نضج تقنية معينة."
+    },
+    "description": {
+      "en": "<p>While TRL 1 means that scientific research is still beginning, TRL 2 considers that once the basic principles have already been studied, practical applications can be engaged although still in a speculative fase. When active research and design begins, TRL 3 describes this analytical and experimental phase when technology is ready to be tested for deployment.</p><p>During TRL 4, several component pieces are brought together for test before TRL 5 continues the process for a next phase when this technology is identified as breadboard. In this case, more rigorous testing will be performed to ensure this technology can reach TRL 6, when scientists have a fully functional prototype or representational model.</p><p>In TRL 7, researchers should have a working model or prototype to be demonstrated, while during TRL 8 this technology already passed the tests and is qualified for implementation into an already existing technology or system. When its performance is proven to be working as intended, then it is finally a technology described in TRL 9.</p><p>This type of measurement is used in order to assure consistent and comparable discussions about technology. By looking at the TRL measurement one can at a glance have an opinion and understand the needs for research and development of a specific tech.</p>",
+      "de": "<p>Während TRL 1 bedeutet, dass die wissenschaftliche Forschung noch am Anfang steht, wird bei TRL 2 davon ausgegangen, dass, sobald die grundlegenden Prinzipien erforscht sind, praktische Anwendungen in Angriff genommen werden können, obwohl sie sich noch in einer spekulativen Phase befinden. Wenn die aktive Forschung und Entwicklung beginnt, beschreibt TRL 3 diese analytische und experimentelle Phase, in der die Technologie bereit ist, für den Einsatz getestet zu werden.</p><p>Während TRL 4 werden mehrere Komponenten für Tests zusammengeführt, bevor TRL 5 den Prozess mit einer nächsten Phase fortsetzt, wenn diese Technologie als „Breadboard“ (wörtl. „Steckplatine“, also \"im Versuchsaufbau funktionsfähig\") identifiziert wird. In diesem Fall werden strengere Tests durchgeführt, um sicherzustellen, dass diese Technologie TRL 6 erreichen kann, wo Wissenschaftler*innen über einen voll funktionsfähigen Prototypen oder ein repräsentatives Modell verfügen.</p><p>Bei TRL 7 sollten die Forscher*innen ein funktionierendes Modell oder einen Prototypen vorweisen können, während bei TRL 8 diese Technologie die Tests bereits bestanden hat und für die Implementierung in eine bereits bestehende Technologie oder ein System qualifiziert ist. Wenn ihre Leistung nachweislich wie vorgesehen funktioniert, dann ist sie endlich eine Technologie wie in TRL 9 beschrieben.</p><p>Diese Art der Messung wird verwendet, um eine konsistente und vergleichbare Diskussion über Technologie zu gewährleisten. Anhand der TRL-Messung kann man augenblicklich eine Meinung bilden und den Bedarf an Forschung und Entwicklung einer bestimmten Technologie verstehen.</p>",
+      "pt-br": "",
+      "es": "",
+      "ar": ""
+    },
+    "results": [
+      {
+        "hide": true,
+        "score": 0,
+        "title": {
+          "en": "Assessment Pending",
+          "de": "Bewertung ausstehend",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "تقييم معلق"
+        },
+        "description": {
+          "en": "",
+          "de": "",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "section": { "en": "", "ar": "" }
+      },
+      {
+        "score": 1,
+        "title": {
+          "en": "Initial Scientific Research",
+          "de": "Frühe Forschung",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "البحث العلمي الأولي"
+        },
+        "description": {
+          "en": "Initial scientific observations are rendered into research and development. ",
+          "de": "Erste wissenschaftliche Beobachtungen werden in Forschung und Entwicklung umgesetzt.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "بدأ تجري دراسات على هذا التقنية في مرحلة ابحاث علمية أولية للبحث فيها وتطويرها."
+        },
+        "section": { "en": "Concept", "ar": "مفهوم" }
+      },
+      {
+        "score": 2,
+        "title": {
+          "en": "Technology Concept",
+          "de": "Technologiekonzept",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "مفهوم التقنية"
+        },
+        "description": {
+          "en": "Research is scrutinized and correlations to practical applications are applied to initial scientific observations. No experimental proof of concept is available yet.",
+          "de": "Forschungen werden hinterfragt und Korrelationen zu praktischen Anwendungen werden auf erste wissenschaftliche Beobachtungen angewendet. Ein experimentelles Proof of Concept ist noch nicht verfügbar.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "يتم مراجعة الأبحاث وملاحظة التوافق والعلاقات بين التطبيقات العملية على الأبحاث العلمية الأولية. ولكن لا يوجد دليل تجريبي مطبق على المفهوم حتى الآن."
+        },
+        "section": { "en": "Concept", "ar": "مفهوم" }
+      },
+      {
+        "score": 3,
+        "title": {
+          "en": "proof-of-concept",
+          "de": "proof-of-concept",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "إثبات المفهوم"
+        },
+        "description": {
+          "en": "Research is considered viable and ready for further development after experimental analysis of the technology concept.",
+          "de": "Die Forschung wird nach der experimentellen Analyse des Technologiekonzepts als durchführbar und entwicklungsreif angesehen.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "تعتبر الأبحاث جاهزة وقابلة للتطبيق بعد التحليل التجريبي لمفهوم التقنية."
+        },
+        "section": { "en": "Proof-of-Concept", "ar": "إثبات المفهوم" }
+      },
+      {
+        "score": 4,
+        "title": {
+          "en": "Lab Environment",
+          "de": "Laborumgebung",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "بيئة مختبر"
+        },
+        "description": {
+          "en": "Experimental analyses are no longer required as multiple component pieces are tested and validated altogether in a lab environment.",
+          "de": "Experimentelle Analysen sind nicht mehr erforderlich, da mehrere Komponenten zusammen in einer Laborumgebung getestet und validiert werden.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "لم تعد تحليلات التجارب مطلوبة لأن عدة أجزاء تم اختبارها وتم التحقق من صحتها بالكامل في بيئة مختبرية."
+        },
+        "section": { "en": "Validation", "ar": "تجارب" }
+      },
+      {
+        "score": 5,
+        "title": {
+          "en": "Field Validation",
+          "de": "Praxisvalidierung",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "التحقق من خلال التجارب"
+        },
+        "description": {
+          "en": "Validation is conducted in relevant environments, where simulations are carried out as close to realistic circumstances. ",
+          "de": "Die Validierung erfolgt in relevanten Umgebungen, in denen die Simulationen so realitätsnah wie möglich durchgeführt werden.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "تتم التحقق الفعالية في بيئة حقيقية ذات صلة، وتم تنفيذ عمليات محاكاة قريبة من الظروف الواقعية."
+        },
+        "section": { "en": "Validation", "ar": "تجارب" }
+      },
+      {
+        "score": 6,
+        "title": {
+          "en": "Prototype Testing",
+          "de": "Testen des Prototyps",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "اختبار النموذج الأولي"
+        },
+        "description": {
+          "en": "Prototype is fully functional and ready for testing in industrially relevant environment.",
+          "de": "Der Prototyp ist voll funktionsfähig und bereit für Tests in industriell relevanter Umgebung.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "النموذج الأولي يعمل بشكل كامل وجاهز للإختبار في بيئة واقعية في المجال."
+        },
+        "section": { "en": "Prototype", "ar": "النموذج المبدئي" }
+      },
+      {
+        "score": 7,
+        "title": {
+          "en": "Prototype Demonstration",
+          "de": "Vorstellen des Prototyps",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "نموذج أولي"
+        },
+        "description": {
+          "en": "Prototype is fully demonstrated in operational environment.",
+          "de": "Der Prototyp wird vollständig in der Betriebsumgebung vorgeführt.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "يتم استخدام النموذج الأولي بالكامل في بيئة عملية."
+        },
+        "section": { "en": "Prototype", "ar": "النموذج المبدئي" }
+      },
+      {
+        "score": 8,
+        "title": {
+          "en": "Ready for Implementation",
+          "de": "Bereit für die Implementierung",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "جاهز للتنفيذ"
+        },
+        "description": {
+          "en": "Technology is developed and qualified. It is readily available for implementation but the market is not entirely familiar with the technology.",
+          "de": "Die Technologie ist fertig entwickelt und zugelassen. Sie ist für die Implementierung leicht verfügbar, aber der Markt ist nicht vollständig mit der Technologie vertraut.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "تم تطوير التقنية واعتمادها. وهي متاحة للتنفيذ بسهولة ولكنها غير مفهومة أو مألوفة لدى العملاء أو المستخدم النهائي."
+        },
+        "section": { "en": "Product", "ar": "منتج" }
+      },
+      {
+        "score": 9,
+        "title": {
+          "en": "Fully Operative",
+          "de": "Voll funktionsfähig",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "يعمل بشكل كامل"
+        },
+        "description": {
+          "en": "Technology is operative and demonstrates considerable market competition among manufacturing industries.",
+          "de": "Die Technologie ist funktionsfähig und zeigt einen beträchtlichen Marktwettbewerb unter den produzierenden Industrien.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": "التقنة مطبقة وتعمل مع العملاء والمستخدمين في السوق وتحقق نجاحات في بيئة العمل."
+        },
+        "section": { "en": "Product", "ar": "منتج" }
+      }
+    ],
+    "chart_ruler": {
+      "tracks": 9,
+      "track_width": 30,
+      "tag_bar_factor": 0.3,
+      "circles": [
+        { "val": 0.5 },
+        { "val": 1.5 },
+        { "val": 2.5 },
+        { "val": 3.5 },
+        { "val": 4.5 },
+        { "val": 5.5 },
+        { "val": 6.5 },
+        { "val": 7.5 },
+        { "val": 8.5 }
+      ],
+      "labels": [
+        { "val": 1, "label": { "en": "TRL 1" } },
+        { "val": 2, "label": { "en": "TRL 2" } },
+        { "val": 3, "label": { "en": "TRL 3" } },
+        { "val": 4, "label": { "en": "TRL 4" } },
+        { "val": 5, "label": { "en": "TRL 5" } },
+        { "val": 6, "label": { "en": "TRL 6" } },
+        { "val": 7, "label": { "en": "TRL 7" } },
+        { "val": 8, "label": { "en": "TRL 8" } },
+        { "val": 9, "label": { "en": "TRL 9" } }
+      ]
+    }
+  },
+
+  "brl": {
+    "range": [1, 9],
+    "results": [
+      {
+        "score": 0,
+        "title": { "en": "Idea", "fr": "Idée", "pt-br": "Ideia" },
+        "description": {
+          "en": "Unproven concept, no testing has been performed.",
+          "fr": "Concept non démontré, aucun contrôle n’a été effectué.",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 1,
+        "title": { "en": "Concept", "fr": "", "pt-br": "" },
+        "description": {
+          "en": "The first idea of a venture or an innovation.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 2,
+        "title": {
+          "en": "Problem-Solution fit",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "The problem has been identified and the proposed solution will address it.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 3,
+        "title": {
+          "en": "Build team and Plan",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "The skills required are known and a team is formed.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 4,
+        "title": {
+          "en": "Customer Definition",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Customer segment is known and well defined, including customer characteristics.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 5,
+        "title": {
+          "en": "Hypothesis testing",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Having a list of hypotheses which can be tested.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 6,
+        "title": {
+          "en": "Minimum Viable Product.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Having released an MVP.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 7,
+        "title": {
+          "en": "Feedback",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "The feedback loop of features which are developed alongside early adopters and customers.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 8,
+        "title": {
+          "en": "Scale",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "A product or service has been developed beyond an MVP stage.",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 9,
+        "title": {
+          "en": "Fully Embedded business",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "A business model or venture that is fully embedded in a market (or many markets).",
+          "fr": "",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      }
+    ],
+
+    "description": {
+      "en": "",
+      "pt-br": "",
+      "es": "",
+      "ar": ""
+    },
+    "chart_ruler": {
+      "tracks": 9,
+      "track_width": 30,
+      "tag_bar_factor": 0.3,
+      "circles": [
+        { "val": 0.5 },
+        { "val": 1.5 },
+        { "val": 2.5 },
+        { "val": 3.5 },
+        { "val": 4.5 },
+        { "val": 5.5 },
+        { "val": 6.5 },
+        { "val": 7.5 },
+        { "val": 8.5 }
+      ],
+      "labels": [
+        { "val": 1, "label": "BRL 1" },
+        { "val": 2, "label": "BRL 2" },
+        { "val": 3, "label": "BRL 3" },
+        { "val": 4, "label": "BRL 4" },
+        { "val": 5, "label": "BRL 5" },
+        { "val": 6, "label": "BRL 6" },
+        { "val": 7, "label": "BRL 7" },
+        { "val": 8, "label": "BRL 8" },
+        { "val": 9, "label": "BRL 9" }
+      ]
+    }
+  },
+
+  "trl_readiness": {
+    "range": [1, 9],
+    "results": [
+      {
+        "range": [1, 2],
+        "label": {
+          "en": "concept",
+          "de": "konzept",
+          "fr": "concept",
+          "pt-br": "conceito"
+        }
+      },
+      {
+        "range": [3, 4],
+        "label": {
+          "en": "proof-of-concept",
+          "de": "proof-of-concept",
+          "de?": "konzeptioneller beweiß",
+          "fr": "",
+          "pt-br": "prova de conceito"
+        }
+      },
+      {
+        "range": [4, 5],
+        "label": {
+          "en": "validation",
+          "de": "validierung",
+          "fr": "",
+          "pt-br": "validação"
+        }
+      },
+      {
+        "range": [6, 7],
+        "label": {
+          "en": "prototype",
+          "de": "prototyp",
+          "fr": "prototype",
+          "pt-br": "protótipo"
+        }
+      },
+      {
+        "range": [8, 10],
+        "label": {
+          "en": "product",
+          "de": "produkt",
+          "fr": "produit",
+          "pt-br": "produto"
+        }
+      }
+    ],
+    "chart_ruler": {
+      "tracks": 9,
+      "track_width": 30,
+      "circles": [
+        { "val": 0.5 },
+        { "val": 2.5 },
+        { "val": 3.5 },
+        { "val": 5.5 },
+        { "val": 7.5 }
+      ],
+      "labels": [
+        {
+          "val": 1.5,
+          "label": {
+            "en": "concept",
+            "de": "Konzept",
+            "fr": "concept",
+            "pt-br": "conceito",
+            "es": "",
+            "ar": "مفهوم"
+          }
+        },
+        {
+          "val": 3,
+          "label": {
+            "en": "proof-of-concept",
+            "de": "proof-of-concept",
+            "fr": "",
+            "pt-br": "prova de conceito",
+            "es": "",
+            "ar": "إثبات المفهوم"
+          }
+        },
+        {
+          "val": 4.5,
+          "label": {
+            "en": "validation",
+            "de": "Validierung",
+            "fr": "",
+            "pt-br": "validação",
+            "es": "",
+            "ar": "تصديق"
+          }
+        },
+        {
+          "val": 6.5,
+          "label": {
+            "en": "prototype",
+            "de": "prototyp",
+            "fr": "prototype",
+            "pt-br": "protótipo",
+            "es": "",
+            "ar": "النموذج المبدئي"
+          }
+        },
+        {
+          "val": 8.5,
+          "label": {
+            "en": "product",
+            "de": "produkt",
+            "fr": "produit",
+            "pt-br": "produto",
+            "es": "",
+            "ar": "منتج"
+          }
+        }
+      ]
+    }
+  },
+
+  "trl_readiness_v1": {
+    "range": [1, 9],
+
+    "chart_ruler": {
+      "tracks": 9,
+      "track_width": 30,
+      "circles": [
+        { "val": 0.5 },
+        { "val": 2.5 },
+        { "val": 4.5 },
+        { "val": 6.5 }
+      ],
+      "labels": [
+        {
+          "val": 1.5,
+          "label": { "en": "idea", "fr": "idée", "pt-br": "ideia" }
+        },
+        {
+          "val": 3.5,
+          "label": { "en": "concept", "fr": "concept", "pt-br": "conceito" }
+        },
+        {
+          "val": 5.5,
+          "label": {
+            "en": "prototype",
+            "fr": "prototype",
+            "pt-br": "protótipo"
+          }
+        },
+        {
+          "val": 7.5,
+          "label": { "en": "product", "fr": "produit", "pt-br": "produto" }
+        }
+      ]
+    },
+    "results": [
+      {
+        "score": 0,
+        "title": { "en": "Idea", "fr": "Idée", "pt-br": "Ideia" },
+        "description": {
+          "en": "Unproven concept, no testing has been performed.",
+          "fr": "Concept non démontré, aucun contrôle n’a été effectué.",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 1,
+        "title": {
+          "en": "Basic research",
+          "fr": "Recherche fondamentale",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Principles postulated and observed but no experimental proof available.",
+          "fr": "Principes postulés et observés mais sans preuve expérimentable disponible.",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 2,
+        "title": {
+          "en": "Technology Formulation",
+          "fr": "Formulation Technologie",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Concept and application have been formulated.",
+          "fr": "Le concept et l'application ont été formulés.",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 3,
+        "title": {
+          "en": "Applied Research",
+          "fr": "Recherche appliquée",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "First laboratory tests completed; proof of concept.",
+          "fr": "Premiers tests de laboratoire terminés; validation de principe",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 4,
+        "title": {
+          "en": "Small scale prototype",
+          "fr": "Prototype à petite échelle",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Prototype built in a laboratory environment.",
+          "fr": "Prototype élaboré en laboratoire.",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 5,
+        "title": {
+          "en": "Large scale prototype",
+          "fr": "Prototype à grande échelle",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Prototype tested in intended environment.",
+          "fr": "Prototype testé dans l'environnement prévu",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 6,
+        "title": {
+          "en": "Prototype system",
+          "fr": "Système de prototype",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Prototype tested in intended environment close to expected performance.",
+          "fr": "Prototype testé dans l'environnement prévu, proche des performances attendues.",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 7,
+        "title": {
+          "en": "Demonstration system",
+          "fr": "Système de démonstration",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "System operating in operational environment at pre-commercial scale.",
+          "fr": "Système opérant dans un environnement d'exploitation avant commercialisation.",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 8,
+        "title": {
+          "en": "First commercial system",
+          "fr": "Premier système commercial",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Manufacturing issues solved.",
+          "fr": "Problèmes de fabrication résolus",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      },
+      {
+        "score": 9,
+        "title": {
+          "en": "Full commercial application",
+          "fr": "Application commerciale complète",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        },
+        "description": {
+          "en": "Technology available for consumers.",
+          "fr": "Technologie disponible pour les consommateurs.",
+          "pt-br": "",
+          "es": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+
+  "qualitative_impact": {
+    "range": [-2, 2],
+    "results": [
+      { "score": -2, "description": "high negative impact" },
+      { "score": -1, "description": "low negative impact" },
+      { "score": 0, "description": "No impact" },
+      { "score": 1, "description": "low positive impact" },
+      { "score": 2, "description": "high positive impact" }
+    ]
+  },
+
+  "_backup //////////////////////////////// ": {
+    "readiness": {
+      "range": [1, 5],
+      "results": [
+        { "range": [1, 2], "label": "idea" },
+        { "range": [2, 3], "label": "concept" },
+        { "range": [3, 4], "label": "prototype" },
+        { "range": [4, 6], "label": "product" }
+      ],
+      "chart_ruler": {
+        "tracks": 5,
+        "track_width": 50,
+        "tag_bar_factor": 0.3,
+        "circles": [{ "val": 2 }, { "val": 3 }, { "val": 4 }],
+        "labels": [
+          { "val": 1.5, "label": "IDEA" },
+          { "val": 2.5, "label": "CONCEPT" },
+          { "val": 3.5, "label": "PROTOTYPE" },
+          { "val": 4.5, "label": "PRODUCT" }
+        ]
+      }
+    },
+
+    "trl_readiness": {
+      "title": "technology_readiness_level",
+      "short_title": "TRL",
+      "range": [1, 9],
+      "results": [
+        { "range": [1, 4], "label": { "en": "idea" } },
+        { "range": [4, 6], "label": { "en": "concept" } },
+        { "range": [6, 8], "label": { "en": "prototype" } },
+        { "range": [8, 10], "label": { "en": "product" } }
+      ],
+      "chart_ruler": {
+        "tracks": 9,
+        "track_width": 30,
+        "circles": [
+          { "val": 0.5 },
+          { "val": 3.5 },
+          { "val": 5.5 },
+          { "val": 7.5 }
+        ],
+        "labels": [
+          { "val": 2.5, "label": { "en": "IDEA" } },
+          { "val": 4.5, "label": { "en": "CONCEPT" } },
+          { "val": 6.5, "label": { "en": "PROTOTYPE" } },
+          { "val": 8.5, "label": { "en": "PRODUCT" } }
+        ]
+      }
+    },
+
+    "trl": {
+      "title": "technology_readiness_level",
+      "short_title": "TRL",
+      "range": [1, 9],
+      "results": [
+        {
+          "score": 0,
+          "title": { "en": "Idea" },
+          "description": {
+            "en": "Unproven concept, no testing has been performed."
+          }
+        },
+        {
+          "score": 1,
+          "title": { "en": "Basic research" },
+          "description": {
+            "en": "Principles postulated and observed but no experimental proof available."
+          }
+        },
+        {
+          "score": 2,
+          "title": { "en": "Technology Formulation" },
+          "description": {
+            "en": "Concept and application have been formulated."
+          }
+        },
+        {
+          "score": 3,
+          "title": { "en": "Applied Research" },
+          "description": {
+            "en": "First laboratory tests completed; proof of concept."
+          }
+        },
+        {
+          "score": 4,
+          "title": { "en": "Small scale prototype" },
+          "description": {
+            "en": "Prototype built in a laboratory environment."
+          }
+        },
+        {
+          "score": 5,
+          "title": { "en": "Large scale prototype" },
+          "description": { "en": "Prototype tested in intended environment." }
+        },
+        {
+          "score": 6,
+          "title": { "en": "Prototype system" },
+          "description": {
+            "en": "Prototype tested in intended environment close to expected performance."
+          }
+        },
+        {
+          "score": 7,
+          "title": { "en": "Demonstration system" },
+          "description": {
+            "en": "System operating in operational environment at pre-commercial scale."
+          }
+        },
+        {
+          "score": 8,
+          "title": { "en": "First commercial system" },
+          "description": { "en": "Manufacturing issues solved." }
+        },
+        {
+          "score": 9,
+          "title": { "en": "Full commercial application" },
+          "description": { "en": "Technology available for consumers." }
+        }
+      ],
+      "description": {
+        "en": "A measurement system developed by NASA, Technology Readiness Level (TRL) ranges from 1 to 9 to describe the maturity level of a particular technology.</p><p>While TRL 1 means that scientific research is still beginning, TRL 2 considers that once the basic principles have already been studied, practical applications can be engaged although still in a speculative fase. When active research and design begins, TRL 3 describes this analytical and experimental phase when technology is ready to be tested for deployment.</p><p>During TRL 4, several component pieces are brought together for test before TRL 5 continues the process for a next phase when this technology is identified as breadboard. In this case, more rigorous testing will be performed to ensure this technology can reach TRL 6, when scientists have a fully functional prototype or representational model.</p><p>In TRL 7, researchers should have a working model or prototype to be demonstrated, while during TRL 8 this technology already passed the tests and is qualified for implementation into an already existing technology or system. When its performance is proven to be working as intended, then it is finally a technology described in TRL 9.</p><>This type of measurement is used in order to assure consistent and comparable discussions about technology. By looking at the TRL measurement one can at a glance have an opinion and understand the needs for research and development of a specific tech.</p>",
+        "pt-br": "",
+        "es": "",
+        "ar": ""
+      },
+      "chart_ruler": {
+        "tracks": 9,
+        "track_width": 30,
+        "tag_bar_factor": 0.3,
+        "circles": [
+          { "val": 0.5 },
+          { "val": 1.5 },
+          { "val": 2.5 },
+          { "val": 3.5 },
+          { "val": 4.5 },
+          { "val": 5.5 },
+          { "val": 6.5 },
+          { "val": 7.5 },
+          { "val": 8.5 }
+        ],
+        "labels": [
+          { "val": 1, "label": { "en": "TRL 1" } },
+          { "val": 2, "label": { "en": "TRL 2" } },
+          { "val": 3, "label": { "en": "TRL 3" } },
+          { "val": 4, "label": { "en": "TRL 4" } },
+          { "val": 5, "label": { "en": "TRL 5" } },
+          { "val": 6, "label": { "en": "TRL 6" } },
+          { "val": 7, "label": { "en": "TRL 7" } },
+          { "val": 8, "label": { "en": "TRL 8" } },
+          { "val": 9, "label": { "en": "TRL 9" } }
+        ]
+      }
+    }
+  }
+}

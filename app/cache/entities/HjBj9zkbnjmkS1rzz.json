@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "HjBj9zkbnjmkS1rzz",
+            "name": "Education Analytics",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/EDUCATIONANALYTICS",
+            "description": {
+                "shortText": "Education analytics are the collection and analysis of data in education to gain insights, with the goal of improving learning and learning outcomes, services or business practices, and finding new efficiencies, cost savings, and revenue streams."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

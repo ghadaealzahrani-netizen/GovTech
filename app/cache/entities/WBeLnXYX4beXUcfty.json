@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "WBeLnXYX4beXUcfty",
+            "name": "Smart Rooms",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/SMARTROOMS",
+            "description": {
+                "shortText": "Using IoT, Smart Rooms allow for a full control of the room without the need for human intervention. Guests have the option to control the room such as switching on/off the AC, control the temperature, smart speaker, as well as monitoring the performance of electronic devices remotely, providing hotel staff with live information about their operating status."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

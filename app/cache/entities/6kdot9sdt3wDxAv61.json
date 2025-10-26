@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "6kdot9sdt3wDxAv61",
+            "name": "Real Time Luggage Tracking",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/REALTIMELUGGAGETRACKING",
+            "description": {
+                "shortText": "As the world becomes increasingly connected, and as people travel more for work or leisure, the need for efficient transportation has only grown, real-time luggage tracking has become an essential tool for travelers who want to keep track of their belongings while on the go. Now, with luggage tracking technology becoming more accurate and affordable, it's easier than ever for travelers to keep tabs on their bags, wherever they go."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

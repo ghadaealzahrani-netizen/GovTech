@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "9ClQzpEscTH4gxSfE",
+            "name": "Process Automation",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/PROCESSAUTOMATION",
+            "description": {
+                "shortText": "RPA solutions to automate back-office, hybrid and student-facing processes with the objective of reducing labor, cost and human error by reliably performing high-volume human tasks. Often the objectives and outcome include an improved student, faculty and staff experience. RPA solutions are also used to automate student transcript requests, and finance management of suppliers and procurement processes."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

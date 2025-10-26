@@ -1,0 +1,19 @@
+// No authentication. This option is not overridable!
+{ "connection": "none" }
+
+// External authentication config, from init source
+{ "connection": "external" }
+
+// Auth0
+{
+  "domain": "auth.envisioning.io",
+  "clientId": <auth0 application id>,
+  "connection": <auth0 connection>
+}
+
+// Testing purpose only! Do not deploy it
+{
+  "domain": "auth.envisioning.io",
+  "clientId": "a1EGbow1W2u4wgM4JjzGMXgAF4KQpjlO",
+  "connection": "Envisioning"
+}

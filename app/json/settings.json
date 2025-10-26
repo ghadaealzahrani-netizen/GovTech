@@ -1,0 +1,306 @@
+{
+  "project": "DGA",
+  "title": "GovTech",
+  "description": "Welcome to GovTech, an interactive visualization tool that allows navigation between emerging technologies expected to impact governments of tomorrow.",
+  "version": "5.1",
+  "url": "https://radar.envisioning.io/dga/govtech",
+  "folder": "dga",
+  "subfolder": "govtech",
+  "i18n": "en",
+
+  "theme": 1,
+  "custom_icon": true,
+
+  "data_url": "https://do.envisioning.io/graphql",
+  "cache_url": "app/cache",
+  ">cache_url>default": "app/cache",
+
+  "data_board": {
+    "id": "z2zSZrGmJy57jugtz",
+    "mode": "local",
+    ">mode_options": "live|local"
+  },
+
+  "data_scenariosboard": {
+    "id": "",
+    "mode": "local",
+    ">mode_options": "live|local"
+  },
+
+  "data_entities": {
+    "mode": "local",
+    ">mode_options": "live|local",
+    "survey_result": "impact"
+  },
+
+  "data_groups": {
+    "mode": "local",
+    ">mode_options": "live|local",
+    "from_countries": false
+  },
+
+  "data_tags": [
+    { "src": "sdg", "title": "sustainable_development_goals" },
+    { "src": "taxonomy", "title": "taxonomy" }
+  ],
+  "data_tags_trash": [
+    { "src": "industry", "title": "industry" },
+    { "src": "domain", "title": "domain" }
+  ],
+
+  "data_surveys": {},
+
+  "labels": {
+    "collection": "area",
+    "collections": "areas",
+    "scenario": "",
+    "scenarios": "",
+    "entity": "technology",
+    "entities": "technologies",
+    "group": "organization",
+    "groups": "organizations",
+    "tag": "tag",
+    "tags": "tags",
+    "radius": "impact",
+    "distance": "readiness",
+    "name": "alphabetical"
+  },
+
+  "ui_settings": "-----------------------------------------test3",
+
+  "modules": {
+    "collections": true,
+    "groups": false,
+    "sources": true,
+    "surveys": false,
+    "tags": true,
+    "scenarios": false,
+
+    "theme_control": false,
+
+    "collections_order": "original",
+    "tags_order": "original",
+    ">options": "original | name | id1,id2...",
+
+    "outer_circle": false,
+    "bar": false,
+    "connections": false,
+
+    "auto_links": true,
+    "menu_tips": true,
+    "preferences": true,
+    "help": true,
+
+    "sqrt_position": false,
+
+    "timeout": false,
+    "language": false,
+    "print": false,
+    "label_rect": false,
+    "numbers": true
+  },
+
+  "preferences": {
+    "show_visited": true,
+    "show_tail": true,
+    "magnetic_label": true,
+    "follow_selection": true,
+    "show_circle_number": false,
+    "auto_highlight": true,
+    "show_tooltip": true
+  },
+
+  "highlight_list": {
+    "collections": true,
+    "scenarios": true,
+    "tags": true,
+    "groups": false
+  },
+
+  "user": {
+    "show": false,
+    "client_logo": true,
+    "url": ""
+  },
+
+  "feedback": {
+    "show": false,
+    "url": ""
+  },
+
+  "hide": {
+    "ev_logo": false,
+    "badge": false,
+    "credits": false
+  },
+
+  "block_sources": ["accenture.com", "kpmg.com", "mckinsey.com"],
+
+  "navigation_settings": "-------------------------------------------",
+
+  "menu": [
+    "welcome",
+    "collections",
+    "scenarios",
+    "entities",
+    "groups",
+    "metrics",
+    "tags",
+    "about"
+  ],
+  "start_at": "welcome",
+
+  "menu_itens": {
+    "welcome": {
+      "icon": "home",
+      "check_mod": false,
+      "card": false,
+      "label": "welcome",
+      "position": "center"
+    },
+    "about": {
+      "icon": "infoC",
+      "check_mod": false,
+      "card": false,
+      "label": "about",
+      "position": "center"
+    },
+    "collections": {
+      "icon": "slice",
+      "check_mod": "collections",
+      "card": "collection_card",
+      "label": "labels.collections",
+      "position": "center"
+    },
+    "scenarios": {
+      "icon": "eye",
+      "check_mod": "scenarios",
+      "card": "scenario_card",
+      "label": "labels.scenarios",
+      "position": "center"
+    },
+    "entities": {
+      "icon": "rocket",
+      "check_mod": false,
+      "card": "entity_card",
+      "label": "labels.entities",
+      "position": "center"
+    },
+    "groups": {
+      "icon": "umbrella",
+      "check_mod": "groups",
+      "card": "group_card",
+      "label": "labels.groups",
+      "position": "center"
+    },
+    "tags": {
+      "icon": "tag",
+      "check_mod": "tags",
+      "card": false,
+      "label": "labels.tags",
+      "position": "center"
+    },
+    "metrics": {
+      "icon": "ruler",
+      "check_mod": false,
+      "card": false,
+      "label": "metrics",
+      "position": "center"
+    }
+  },
+
+  "radar_settings": "-------------------------------------------",
+
+  "radar": {
+    "dimensions": {
+      "outer_circle": ["impact"],
+      "distance": "trl",
+      "bar": "brl"
+    },
+    "default_order": {
+      "primary": "collection",
+      "secondary": "distance",
+      ">options": "collection, name, distance, radius"
+    },
+    "ticks": "trl_readiness",
+    "badge_width": 120,
+    "badge_tracks": 5,
+    "outer_tracks": 1,
+    "zoom_range": [0.25, 2],
+    "initial_zoom": 0.5,
+    "entity": {
+      "label_size": 12,
+      "label_distance": 20,
+      "tag_bar_opacity": 0.1,
+      "inner_radius": 1.8,
+      "hit_radius": 5,
+      "max_outer_radius": 5,
+      "visited_width": 0.5
+    },
+    "a11y": {
+      "title": " Technologies Radar Chart",
+      "description": "\nChart showing technologies on a wheel forming a Radar.\nEach technology has a correspondent circle point. \nThe closer the point is to the center, the higher the TRL is.\nThe bigger the circle is, the higher the technology's Impact is."
+    }
+  },
+
+  "metrics / tags / seo": "-------------------------------------------",
+
+  "extra_tags": {},
+
+  "extra_metrics": {},
+
+  "seo": [
+    {
+      "pg": "entity_",
+      "dataPath": "entities",
+      "dataType": "entity",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!{name}!,$tag_!TECHNOLOGY!,$color_!rgb:33ccff!/t_cities/v1/{imageId}"
+    },
+    {
+      "pg": "entities",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!!,$tag_!TECHNOLOGIES!,$color_!rgb:33ccff!/t_cities/v1/defaultImage"
+    },
+    {
+      "pg": "col_",
+      "dataPath": "collections",
+      "dataType": "collection",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!{name}!,$tag_!DOMAIN!,$color_!rgb:33ccff!/t_cities/v1/defaultImage"
+    },
+    {
+      "pg": "collections",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!!,$tag_!DOMAINS!,$color_!rgb:33ccff!/t_cities/v1/defaultImage"
+    },
+    {
+      "pg": "scene_",
+      "dataPath": "scenarios",
+      "dataType": "scenario",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!{name}!,$tag_!SCENARIO!,$color_!rgb:33ccff!/t_cities/v1/s3/images/{imageId}"
+    },
+    {
+      "pg": "scenarios",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!!,$tag_!SCENARIOS!,$color_!rgb:33ccff!/t_cities/v1/defaultImage"
+    },
+    {
+      "pg": "tag_",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!!,$tag_!SUSTAINABLE DEVELOPMENT GOAL!,$color_!rgb:33ccff!/t_cities/v1/defaultImage"
+    },
+    {
+      "pg": "tags",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!!,$tag_!SUSTAINABLE DEVELOPMENT GOALS!,$color_!rgb:33ccff!/t_cities/v1/defaultImage"
+    },
+    {
+      "pg": "group_",
+      "dataPath": "groups",
+      "dataType": "group",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/$title_!!,$tag_!!,$color_!rgb:33ccff!/t_cities/v1/defaultImage"
+    },
+    {
+      "pg": "welcome",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/c_fill,h_675,w_1200/e_saturation:-50/c_scale,e_colorize,co_rgb:292940,h_675,l_ev_logo:bg2,o_85,w_1200/c_scale,g_center,h_280,l_cities:horizontal_sm,x_0,y_0/v1596111770/cities/bg_cities1.png"
+    },
+    {
+      "pg": "about",
+      "seoImage": "https://res.cloudinary.com/envisioning/image/upload/c_fill,h_675,w_1200/e_saturation:-50/c_scale,e_colorize,co_rgb:292940,h_675,l_ev_logo:bg2,o_85,w_1200/c_scale,g_center,h_280,l_cities:horizontal_sm,x_0,y_0/v1596111770/cities/bg_cities1.png"
+    }
+  ]
+}

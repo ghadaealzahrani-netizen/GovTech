@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "05DePykVpHRoPPCQD",
+            "name": "Chatbots",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/CHATBOTS",
+            "description": {
+                "shortText": "Chatbots are domain-specific or task-specific conversational interfaces that use an app, messaging platform, social network or chat solution for conversations. Chatbots range in use-case sophistication from simple, decision-tree-based, to implementations built on feature-rich platforms. They are always narrow in scope. A chatbot can be text-based or voice-based, or a combination of both."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

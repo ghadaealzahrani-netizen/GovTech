@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "tCH6M0UwQ51GWeex3",
+            "name": "Automated Gates",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/AUTOMATEDGATES",
+            "description": {
+                "shortText": "Automated gates is a self-service border clearance gates for travelers. The gates are equipped with multiple IOT enabled contact less devices such as iris scanner, palm vein scanner, RFID reader etc. to capture unique passenger data and an analytics engine that compares to collected data with multiple databases to verify the passenger identity."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

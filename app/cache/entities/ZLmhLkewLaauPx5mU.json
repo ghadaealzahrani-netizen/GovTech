@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "ZLmhLkewLaauPx5mU",
+            "name": "Blockchain (NFT) for Authentication of Fine Art",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/BLOCKCHAIN",
+            "description": {
+                "shortText": "NFT Art galleries have become a touristic destination for fine arts collectors where it empowers creators who can now reach their customers more directly and get paid more easily. As part of the artistic ecosystem, the authentication and copyrights of the artwork ownership is an essential aspect. Hence the authentication of fine arts using blockchain."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

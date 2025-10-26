@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "kBTPG7jKGYMm1RUJ4",
+            "name": "Frictionless service",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/FRICTIONLESSEXPERIENCE",
+            "description": {
+                "shortText": "Frictionless means that accessing the service requires little to no effort on the part of the beneficiary. They integrate physical and digital worlds across all organizations and are data-driven, and eliminate unnecessary administrative steps. This includes a “one-click” service offering that make it easy to get what you want fast. The Once-Only feature allows citizens to get what they need through governments issuing a secure online identification that bridge the gap between agencies without using a single database. Applications include personalized services such as personalized learning whereby educators can now tailor their lessons based on individual' student profiles. In addition, some government entities have also automated, personalized reminders about benefit applications, etc."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

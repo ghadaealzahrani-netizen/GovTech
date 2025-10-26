@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "XWX3lHaOx65AzZlYV",
+            "name": "Hotels Robotic Assistants",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/HOTELSROBOTICASSISTANT",
+            "description": {
+                "shortText": "The hotel robotic assistant is best suited for small and modest B&B accommodations that do not offer a 24-hour concierge service. The robot will act as an on-demand concierge service by offering answers to questions/inquiries from the guests. Anyone may get the information he/she needs from the robotic assistant, whether they have inquiries about F&B recommendations, close-by attractions, or information requests on anything related to the accommodations."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

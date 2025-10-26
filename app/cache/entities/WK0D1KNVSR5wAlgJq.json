@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "WK0D1KNVSR5wAlgJq",
+            "name": "Smart Contracts",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/SMARTCONTRACTS",
+            "description": {
+                "shortText": "Smart Contracts are contracts that are written as a code enabling the contracts to self-execute once the terms are met. They simplify and automate the process among the tourism value chain and increase overall customer satisfaction. Examples range from “farm to table food traceability”, to identify management to loyalty points redeeming through creating a system of partner network which allows loyalty members to easily earn rewards from multiple providers and exchange them on the network without any cost in the form of “lost” points."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

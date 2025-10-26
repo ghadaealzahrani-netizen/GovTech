@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "2BSQKPv2K0r7tfjSy",
+            "name": "Autonomous Mobile Robots",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/AUTONOMOUSMOBILEROBOTS",
+            "description": {
+                "shortText": "Autonomous Mobile Robot (AMR) are special types of robots can handle delivery and transportation duties to free up staff members' time for customer care. AMRs are equipped with cameras and sensors that allow them to navigate their environment and avoid any unexpected obstacle, such as a crowd of people (e.g., in events, restaurants, symposiums, etc.). AMR is new and innovative ways to improve operational efficiency, enhance speed, ensure precision, and increase safety and can be applied in all sectors, including tourism."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

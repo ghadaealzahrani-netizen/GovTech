@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "wH8wZSjnpJRGTHWAi",
+            "name": "Unique Digital Identifiers",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/UNIQUEDIGITALIDENTIFIERS",
+            "description": {
+                "shortText": "Unique digital identifiers allow for the integration of data and a seamless citizen experience, enabling massive improvements in service quality, efficiency gains, and the move to a digital delivery model. Unique digital IDs have risks such as connectivity and information sharing. This include data breaches at credit agencies or on social media, failure of technical systems, or concerns over the control and misuse of personal data. Technological failure includes problems with the functionality of the hardware or software associated with a digital ID as well as infrastructure problems."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

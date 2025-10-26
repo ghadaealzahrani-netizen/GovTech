@@ -1,0 +1,431 @@
+{
+  "feedback_modal": [],
+
+  "welcome": {
+    "page_mode": "single_page",
+    "modules": [{
+        "module": "image",
+        "file": "cover.png",
+        "margin": false,
+        "size": false,
+        "bgcolor": "transparent",
+        "bgmode": "fill",
+        "alt": "GovTech"
+      },
+      {
+        "module": "double_lang",
+        "margin": "lg",
+        "options": [{
+            "lg": "en",
+            "label": "english",
+            "url": "${root}?lang=en"
+          },
+          {
+            "lg": "ar",
+            "label": "العربية",
+            "url": "${root}?lang=ar"
+          }
+        ],
+        "size": "md"
+      },
+      {
+        "module": "text",
+        "margin": "xl",
+        "src": "description",
+        "section": false,
+        "auto_links": false
+      }
+    ]
+  },
+
+  "about": {
+    "page_mode": "single_page",
+    "modules": [{
+        "module": "section_title",
+        "margin": false,
+        "tx": "credits"
+      },
+
+      {
+        "module": "credits",
+        "margin": "md",
+        "list": [{
+            "name": {
+              "en": "Eng. Abdulmohsen Almadi",
+              "ar": "م. عبدالمحسن الماضي"
+            },
+            "role": "dba_ceo"
+          },
+          {
+            "name": {
+              "en": "Eng. Moath Alzahrani",
+              "ar": "م. معاذ الزهراني"
+            },
+            "role": "dba_director"
+          },
+          {
+            "name": {
+              "en": "Eng. Hanan Alsalamah",
+              "ar": "م. حنان السلامة"
+            },
+            "role": "data_scientist"
+          },
+          {
+            "name": {
+              "en": "Eng. Khalid Almuraee",
+              "ar": "م. خالد المورعي"
+            },
+            "role": "et_and_bm"
+          }
+        ]
+      },
+
+      {
+        "module": "players",
+        "margin": "xxl",
+        "list": [{
+          "name": {
+            "en": "Digital Government Authority",
+            "ar": "هيئة الحكومة الرقمية"
+          },
+          "description": {
+            "en": [
+              "Digital Government Authority (DGA) is concerned with everything related to digital government in Saudi Arabia. It has been established to guide the digital transformation journey of the government entities in the Kingdom to help them in delivering highly efficient digital services, and adoption and enablement of emerging technologies. DGA aims to achieve these objectives by providing strategic direction, achieving integration in the field of digital government among all government agencies, setting standards to regulate the sector and running enablement programs for required capacity and capabilities."
+            ],
+            "ar": [
+              "تهتم هيئة الحكومة الرقمية بكل ما يتعلق بالحكومة الرقمية في المملكة. وقد تم تأسيسها لمساعدة الجهات الحكومية في رحلة التحول الرقمي وتمكينها من تقديم خدمات رقمية عالية الكفاءة، وتوفير الدعم لتبني وتمكين التقنيات الناشئة. تهدف الهيئة إلى تحقيق هذه الأهداف من خلال توضيح التوجهات الاستراتيجية، وتحقيق التكامل في  الحكومة الرقمية بين جميع الجهات، وتحديد المعايير لتنظيم القطاع وتشغيل برامج التمكين للمهارات والقدرات اللازمة."
+            ]
+          },
+          "link": {
+            "label": "dga.gov.sa",
+            "url": {
+              "en": "https://dga.gov.sa/en/",
+              "ar": "https://dga.gov.sa/"
+            }
+          }
+        }]
+      },
+      {
+        "module": "about_logos",
+        "margin": "lg"
+      }
+    ]
+  },
+
+  "entity": {
+    "page_mode": "single_page",
+    "tt_text": "summary",
+    "image": {
+      "mode": "local",
+      ">mode_options": "live | local | generic ",
+      "server": "https://res.cloudinary.com/envisioning/image/upload/{cr},dpr_1,h_{h},w_{w}/v1/s3/images/{img}"
+    },
+    "modules": [{
+        "module": "image",
+        "file": false,
+        "margin": false,
+        "size": false,
+        "bgcolor": false,
+        "bgmode": "fill",
+        "alt": false
+      },
+      {
+        "module": "card_name",
+        "margin": "lg",
+        "lb": {
+          "main": {
+            "tx": "{name}",
+            "color": false
+          },
+          "sub": {
+            "tx": "{collection.name}",
+            "color": true,
+            "check_mod": "collections"
+          }
+        }
+      },
+      {
+        "module": "trl",
+        "margin": "lg"
+      },
+      {
+        "module": "summary",
+        "margin": "lg",
+        "src": "summary"
+      },
+      {
+        "module": "dash",
+        "margin": "lg",
+        "color": "object"
+      },
+
+      {
+        "module": "text",
+        "margin": "lg",
+        "src": "description",
+        "section": false,
+        "auto_links": false
+      },
+
+      {
+        "module": "_division",
+        "check_obj": "off",
+        "check_arr": "off",
+        "check_mod": "collections",
+        "margin": "xl",
+        "label": "labels.collection",
+        "color": "secondary"
+      },
+      {
+        "module": "entity_collection",
+        "margin": false,
+        "mode": "list_item"
+      },
+
+      {
+        "module": "_division",
+        "check_obj": "scenario",
+        "check_arr": "off",
+        "check_mod": "scenarios",
+        "margin": "xl",
+        "label": "labels.scenario",
+        "color": "secondary"
+      },
+      {
+        "module": "entity_scenario",
+        "margin": false,
+        "mode": "list_item"
+      },
+
+      {
+        "module": "_division",
+        "check_obj": "off",
+        "check_arr": "sdg",
+        "check_mod": "tags",
+        "margin": "xl",
+        "label": "sustainable_development_goals",
+        "color": "secondary"
+      },
+      {
+        "module": "tags",
+        "src": "sdg",
+        "margin": false
+      },
+      {
+        "module": "_division",
+        "check_obj": "off",
+        "check_arr": "taxonomy",
+        "check_mod": "tags",
+        "margin": "xl",
+        "label": "taxonomy",
+        "color": "secondary"
+      },
+      {
+        "module": "tags",
+        "src": "taxonomy",
+        "margin": false
+      },
+
+      {
+        "module": "_division",
+        "check_obj": "off",
+        "check_arr": "groups",
+        "check_mod": "groups",
+        "margin": "xl",
+        "label": "organizations",
+        "color": "secondary"
+      },
+      {
+        "module": "groups",
+        "margin": "extra"
+      },
+
+      {
+        "module": "_division",
+        "check_obj": "off",
+        "check_arr": "attachments",
+        "check_mod": "sources",
+        "margin": "xl",
+        "label": "sources",
+        "color": "secondary"
+      },
+      {
+        "module": "sources",
+        "margin": false
+      },
+      {
+        "module": "copyright",
+        "margin": "xl"
+      }
+    ]
+  },
+
+  "collection": {
+    "page_mode": "single_page",
+    "image": {
+      "type": "mosaic",
+      ">type_options": "mosaic | fill | fit | icon",
+      "mode": "local",
+      ">mode_options": "live | local | generic",
+      "server": "https://res.cloudinary.com/envisioning/image/upload/{cr},dpr_1,h_{h},w_{w}/v1/s3/images/{img}"
+    },
+    "tt_text": "summary",
+    "modules": [{
+        "module": "section_mosaic",
+        "margin": false,
+        "size": false,
+        "colorize": true
+      },
+      {
+        "module": "card_name",
+        "margin": "lg",
+        "lb": {
+          "main": {
+            "tx": "{name}",
+            "color": true
+          },
+          "sub": false
+        }
+      },
+      {
+        "module": "text",
+        "margin": "xl",
+        "src": "description",
+        "section": false,
+        "auto_links": false
+      }
+    ]
+  },
+
+  "scenario": {
+    "page_mode": "single_page",
+    "image": {
+      "mode": "local",
+      ">mode_options": "live | local | mosaic | generic",
+      "server": "https://res.cloudinary.com/envisioning/image/upload/{cr},dpr_1,h_{h},w_{w}/v1/s3/images/{img}"
+    },
+    "modules": [{
+        "module": "image",
+        "file": false,
+        "margin": false,
+        "size": false,
+        "bgcolor": false,
+        "bgmode": "fill",
+        "alt": "scenario illustration"
+      },
+      {
+        "module": "card_name",
+        "margin": "lg",
+        "lb": {
+          "main": {
+            "tx": "{name}",
+            "color": false
+          },
+          "sub": false
+        },
+        "check_mod": "collections"
+      },
+      {
+        "module": "text",
+        "margin": "xl",
+        "src": "description",
+        "section": false,
+        "auto_links": false
+      }
+    ]
+  },
+
+  "group": {
+    "page_mode": "single_page",
+    "footer_message": false,
+    "image": {
+      "mode": "live",
+      ">mode_options": "live | local | mosaic | generic",
+      "server": "https://res.cloudinary.com/envisioning/image/upload/{cr},dpr_1,h_{h},w_{w}/v1/s3/images/{img}"
+    },
+    "modules": [{
+        "module": "image",
+        "file": false,
+        "margin": false,
+        "size": false,
+        "bgcolor": "#fff",
+        "bgmode": "inset",
+        "alt": "organization logo"
+      },
+      {
+        "module": "card_name",
+        "margin": "lg",
+        "lb": {
+          "main": {
+            "tx": "{name}",
+            "color": false
+          },
+          "sub": false
+        }
+      },
+      {
+        "module": "text",
+        "margin": "lg",
+        "src": "description",
+        "section": false,
+        "auto_links": true
+      },
+      {
+        "module": "data_info",
+        "margin": "xl",
+        "chk": "country",
+        "data_src": "countries",
+        "label": "haedquarters",
+        "label_color": "secondary"
+      },
+      {
+        "module": "info",
+        "margin": "xl",
+        "src": "foundingYear",
+        "label": "founding_year",
+        "label_color": "secondary"
+      },
+      {
+        "module": "data_info",
+        "margin": "xl",
+        "chk": "type",
+        "data_src": "group_type",
+        "label": "type",
+        "label_color": "secondary"
+      },
+      {
+        "module": "link",
+        "icon": "popup21",
+        "bt_lb": false,
+        "margin": "xl",
+        "label": "url",
+        "label_color": "secondary"
+      }
+    ]
+  },
+
+  "tag": {
+    "page_mode": "single_page",
+    "modules": [{
+        "module": "card_name",
+        "margin": false,
+        "lb": {
+          "main": {
+            "tx": "{name}",
+            "color": false
+          },
+          "sub": {
+            "tx": "tag",
+            "color": true,
+            "check_mod": "off"
+          }
+        }
+      },
+      {
+        "module": "summary",
+        "margin": "lg",
+        "src": "summary"
+      }
+    ]
+  }
+}

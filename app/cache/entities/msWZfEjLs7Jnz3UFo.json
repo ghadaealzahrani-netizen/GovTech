@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "msWZfEjLs7Jnz3UFo",
+            "name": "Go-style Store Checkout",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/GOSTYLECHECKOUT",
+            "description": {
+                "shortText": "Go-style smart check-out combines computer vision and AI to visually track what products the customers select and deselect as they shop. Through delivering convenience and connection in an effortless way, different technologies are implemented such as sensor fusion and computer vision which, once the customer downloads the app and scan it as he/she enters the store, the computer vision cameras 'see' what is in front of them and determine what an object is – to detect when an item has been taken from a shelf by a customer and who has taken it. The system is also able to remove an item from a customer's virtual basket if it is put back on the shelves."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

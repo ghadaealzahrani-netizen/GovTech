@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "R5Dd2Q3PpRGyWvV5F",
+            "name": "On-Demand Aviation",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/ONDEMANDAVIATION",
+            "description": {
+                "shortText": "On-demand aviation refers to the idea of using a ride-hailing service, such as Uber, Lyft and Careem, to book flights in aircraft using electric vertical takeoff and landing (eVTOL) technology. The concept is an adaptation of the fractional ownership or charter flight business models currently in use at the upper end of the market. Such business model within the mobility domain could potentially offer a solution to traffic during travel holiday seasons (e.g. Riyadh season)."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

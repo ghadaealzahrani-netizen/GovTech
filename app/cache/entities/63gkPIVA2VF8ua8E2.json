@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "63gkPIVA2VF8ua8E2",
+            "name": "Connected Agencies",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/CONNECTEDAGENCIES",
+            "description": {
+                "shortText": "Connected agencies eliminate the departmental boundaries which allow for governments to respond better to complex societal issues. This includes data-sharing which plays a crucial role in the “silo-hacking” effort by becoming a connecting thread between agencies. Silos within and between agencies have long been obstacles to addressing problems, delivering services, and achieving results. Therefore, and in response to the pandemic crisis, governments are creating interagency structures that break down silos and connect government agencies to respond to complex citizen needs."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

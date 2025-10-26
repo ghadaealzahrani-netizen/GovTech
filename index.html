@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DGA | GovTech</title>
+    <meta property=”project-creator” content=”https://radar.dga.gov.sa/” />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <meta
+      property="description"
+      content="Welcome to GovTech, an interactive visualization tool that allows navigation between emerging technologies expected to impact governments of tomorrow."
+    />
+    <meta name="robots" content="index, follow" />
+    <!-- META FB -->
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://radar.dga.gov.sa/"
+    />
+    <meta property="og:title" content="DGA | GovTech" />
+    <meta
+      property="og:description"
+      content="Welcome to GovTech, an interactive visualization tool that allows navigation between emerging technologies expected to impact governments of tomorrow."
+    />
+    <meta
+      property="og:image"
+      content="/govtech/app/img/radar.png"
+    />
+    <meta property="og:image:alt" content="DGA | GovTech" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:site_name" content="DGA" />
+
+    <!-- CSS -->
+    <link href="app/init.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Nunito+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <script>
+      var dev_mode = false;
+    </script>
+
+    <style id="temp_style"></style>
+    <style>
+      /* colors  */
+      .c_mainColor {
+        color: #fff;
+      }
+      .bc_secondaryBg {
+        border-color: #2b275c;
+      }
+
+      .bg_mainBg {
+        background: #37326d;
+      }
+      .bc_mainBg {
+        border-color: #37326d;
+      }
+      .c_mainBg {
+        color: #37326d;
+      }
+
+      .bg_accentColor {
+        background: #55b6e0;
+      }
+      .blc_accentColor {
+        border-left-color: #55b6e0;
+      }
+      .c_accentColor {
+        color: #55b6e0;
+      }
+
+      .bg_stopColor {
+        background: #ff6666;
+      }
+      .c_stopColor {
+        color: #ff6666;
+      }
+      #auth_logo {
+        background-image: url("app/img/board/auth.png");
+      }
+    </style>
+
+    <div id="auth" class="bg_mainBg" hidden>
+  <div id="login">
+    <div id="auth_logo"></div>
+    <div id="auth_msg"></div>
+    <button class="auth_bt bg_accentColor c_mainColor" onClick="auth0_login()">
+      LOGIN
+    </button>
+  </div>
+</div>
+
+<div id="preloader" class="bg_mainBg preloader fixed">
+  <div class="spinner bc_secondaryBg blc_accentColor"></div>
+</div>
+
+<!-- OVERLAYS -->
+<div id="m_menu_container" class="mobile animate2">
+  <div id="m_menu_x"></div>
+  <ul id="m_menu"></ul>
+</div>
+
+<div id="overlays" class="flex_center"></div>
+
+<div id="fog" class="animate2" hidden></div>
+
+<!-- LEFT BAR -->
+<div id="left_bar" class="side_bar">
+  <div id="left_bar_bg" class="bar_bg"></div>
+  <div id="ev_logo" class="bt on icon25 icon-ev25"></div>
+  <nav id="menu_container" aria-label="Main Menu" class="desktop flex_center">
+    <ul id="menu"></ul>
+  </nav>
+  <footer id="app_info" aria-hidden="true">
+    <div class="sublabel" id="app_name"></div>
+    <div class="sublabel" id="version"></div>
+  </footer>
+</div>
+
+<!-- RIGHT BAR -->
+<div id="right_bar" class="side_bar">
+  <div id="right_bar_bg" class="bar_bg"></div>
+  <div id="user_bt" class="bt off icon25 animate1"></div>
+  <div
+    id="logout"
+    class="bg_mainBg shadow animate2"
+    style="display: none"
+    aria-hidden="true"
+  >
+    <div id="logout_email"></div>
+    <button
+      tabindex="-1"
+      id="logout_bt"
+      class="auth_bt bg_stopColor c_mainColor"
+      onClick="auth0_logout()"
+    >
+      SAIR
+    </button>
+  </div>
+
+  <div id="zoom" class="animate2" aria-hidden="true">
+    <div id="zoom_in" class="bt">
+      <div class="zoom_icon animate1"></div>
+    </div>
+    <div id="zoom_slider">
+      <div id="zoom_slider_handler">
+        <div id="zoom_slider_icon" class="animate1"></div>
+      </div>
+      <div id="zoom_slider_track"></div>
+    </div>
+    <div id="zoom_out" class="bt">
+      <div class="zoom_icon animate1"></div>
+    </div>
+  </div>
+
+  <!-- FEEDBACK -->
+  <div
+    class="bt icon icon25 icon-chat25"
+    id="feedback_bt"
+    aria-hidden="true"
+  ></div>
+</div>
+
+<!-- TOOLTIP -->
+<div id="tooltip_a11y_desc" aria-hidden="false" class="visually-hidden"></div>
+<div id="tooltip" style="display: none" aria-hidden="true">
+  <div id="tooltip_info" class="shadow">
+    <div id="tooltip_tb"></div>
+    <div id="tooltip_lb"></div>
+    <div id="tooltip_desc"></div>
+    <svg>
+      <polygon id="tooltip_arrow" points="0,0 20,0 10,10" stroke="none" />
+    </svg>
+  </div>
+</div>
+
+<!-- TIP -->
+<div id="tip" aria-hidden="true">
+  <div id="tip_info">
+    <span id="tip_label" class="shadow"></span>
+  </div>
+</div>
+
+<!-- CONTAINER -->
+<div id="container" style="display: none" role="main">
+  <!-- MOBILE -->
+
+  <div id="m_header" class="mobile">
+    <div id="m_ev_logo" class="bt on icon25 icon-ev25"></div>
+    <div id="m_header_title" class="header_title">
+      <div id="m_project" class="project_name ellipsis"></div>
+      <div id="m_title" class="board_title ellipsis"></div>
+    </div>
+    <div id="m_user_bt" class="bt icon25"></div>
+    <div class="m_bar_bg shadow"></div>
+  </div>
+
+  <div id="m_footer" class="mobile">
+    <div id="m_radar_bt" class="bt on icon25 icon-compass25"></div>
+    <div id="m_menu_bt" class="bt on icon25 icon-hamburguer25"></div>
+    <div id="m_feedback_bt" class="bt on icon25 icon-chat25"></div>
+    <div class="m_bar_bg shadow"></div>
+  </div>
+
+  <!-- END MOBILE -->
+
+  <div id="right_panel" class="panel animate2"></div>
+
+  <div id="left_panel" class="panel shadow animate2">
+    <div id="panel_slider" class="level_1">
+      <!-- panel LEFT  -->
+      <div id="book" class="panel_page left">
+        <!-- panel template  
+						<div id="panel_" class="mode000 m_mode0">
+              <h1 class="header panel_title">
+                <b class="lgr_collections"></b>
+              </h1>
+              <div id='' class='animate1 top_bar'></div> 
+              top ^ 
+              <div class="container"></div>
+              bottom v
+              <div id='' class='animate1 bottom_bar'></div> 
+              <div id='' class='footer'></div>
+            </div> -->
+
+        <!-- panel WELCOME  -->
+        <section
+          id="panel_welcome"
+          aria-labelledby="panel_title_welcome"
+          class="text_panel mode001 m_mode1"
+          style="display: none"
+        >
+          <div class="header">
+            <h1 class="panel_title" tabindex="0" id="panel_title_welcome">
+              <b class="lg_welcome"></b>
+            </h1>
+          </div>
+          <!-- top ^ -->
+          <div id="welcome_container" class="content container"></div>
+          <!-- bottom v -->
+          <div id="welcome_footer" class="footer"></div>
+        </section>
+
+        <!-- panel about  -->
+        <section
+          id="panel_about"
+          aria-labelledby="panel_title_about"
+          class="text_panel mode001 m_mode1"
+          style="display: none"
+        >
+          <div class="header">
+            <h1 class="panel_title" tabindex="0" id="panel_title_about">
+              <b class="lg_about"></b>
+            </h1>
+          </div>
+          <!-- top ^ -->
+          <div id="about_container" class="content container"></div>
+          <!-- bottom v -->
+          <div id="about_footer" class="footer"></div>
+        </section>
+
+        <!-- panel entities  -->
+        <section
+          id="panel_entities"
+          aria-labelledby="panel_title_entities"
+          class="mode100 m_mode1"
+          style="display: none"
+        >
+          <div class="header">
+            <h1 class="panel_title" tabindex="0" aria-id="panel_title_entities">
+              <span class="total_entities panel_title_total"> </span>
+              <b class="lgr_entities"></b>
+            </h1>
+          </div>
+          <div id="search_entities" class="animate1 top_bar">
+            <input
+              id="search_entity_str"
+              class="search_str animate1 lg_ph_search_technology"
+              type="text"
+              placeholder=""
+            />
+            <div id="search_entity_x" class="animate1 search_cancel">
+              <div class="icon15 icon-xCF15"></div>
+              <div
+                class="search_n"
+                id="n_entities"
+                role="status"
+                aria-live="polite"
+                aria-relevant="additions text"
+              ></div>
+            </div>
+            <div
+              id="search_entity_icon"
+              class="search_icon animate1 icon21 icon-magnifier21"
+            ></div>
+          </div>
+          <!-- top ^ -->
+          <nav aria-label="Technologies list" class="container">
+            <ul class="list" id="entities_list" tabindex="0"></ul>
+          </nav>
+          <!-- bottom v -->
+        </section>
+
+        <!-- panel groups  -->
+        <section
+          id="panel_groups"
+          aria-labelledby="panel_title_groups"
+          class="mode100 m_mode1"
+          style="display: none"
+        >
+          <div class="header">
+            <h1 class="panel_title" id="panel_title_groups" tabindex="0">
+              <span class="total_groups panel_title_total"> </span>
+              <b class="lgr_groups"></b>
+            </h1>
+          </div>
+          <div id="search_groups" class="animate1 top_bar">
+            <input
+              id="search_group_str"
+              class="search_str animate1 lg_ph_search_organization"
+              type="text"
+              placeholder=""
+            />
+            <div id="search_group_x" class="animate1 search_cancel">
+              <div class="icon15 icon-xCF15"></div>
+              <div class="search_n" id="n_groups"></div>
+            </div>
+            <div class="search_icon animate1 icon21 icon-magnifier21"></div>
+          </div>
+          <!-- top ^ -->
+          <nav class="container">
+            <ul id="groups_list" class="list" tabindex="0"></ul>
+          </nav>
+          <!-- bottom v -->
+          <div id="panel_groups_footer" class="footer"></div>
+        </section>
+
+        <!-- panel COLLECTIONS  -->
+        <section
+          id="panel_collections"
+          aria-labelledby="panel_title_collections"
+          class="mode000 m_mode0"
+          style="display: none"
+        >
+          <div class="header">
+            <h1 class="panel_title" id="panel_title_collections" tabindex="0">
+              <span class="total_collections panel_title_total"> </span>
+              <b class="lgr_collections"></b>
+            </h1>
+          </div>
+          <!-- top ^ -->
+          <nav class="container">
+            <ul id="collections_list" class="list" tabindex="0"></ul>
+          </nav>
+          <!-- bottom v -->
+        </section>
+
+        <!-- panel SCENARIOS  -->
+        <section
+          id="panel_scenarios"
+          aria-labelledby="panel_title_scenarios"
+          class="mode000 m_mode0"
+          style="display: none"
+        >
+          <div class="header">
+            <h1
+              class="panel_title"
+              aria-labelledby="panel_title_scenarios"
+              tabindex="0"
+            >
+              <span class="total_scenarios panel_title_total"> </span>
+              <b class="lgr_scenarios"></b>
+            </h1>
+          </div>
+          <!-- top ^ -->
+          <nav class="container">
+            <ul class="list solo" id="scenarios_list" tabindex="0"></ul>
+          </nav>
+          <!-- bottom v -->
+        </section>
+
+        <!-- panel tags  -->
+        <section
+          id="panel_tags"
+          aria-labelledby="panel_title_tags"
+          class="mode100 m_mode1"
+          style="display: none"
+        >
+          <div class="header">
+            <h1
+              class="panel_title"
+              aria-labelledby="panel_title_tags"
+              tabindex="0"
+            >
+              <span class="total_tags panel_title_total"></span>
+              <b class="lgr_tags"></b>
+            </h1>
+          </div>
+          <div id="search_tags" class="animate1 top_bar">
+            <input
+              id="search_tag_str"
+              class="search_str animate1 lg_ph_search_tag"
+              type="text"
+              placeholder=""
+            />
+            <div id="search_tag_x" class="animate1 search_cancel">
+              <div class="icon15 icon-xCF15"></div>
+              <div class="search_n" id="n_tags"></div>
+            </div>
+            <div class="search_icon animate1 icon21 icon-magnifier21"></div>
+          </div>
+          <!-- top ^ -->
+          <nav aria-label="Tags list" class="container">
+            <ul class="list" id="tags_list" tabindex="0"></ul>
+          </nav>
+
+          <!-- bottom v -->
+        </section>
+
+        <!-- panel metrics  -->
+        <section
+          id="panel_metrics"
+          aria-labelledby="panel_title_metrics"
+          class="mode000 m_mode1"
+          style="display: none"
+        >
+          <div class="header">
+            <h1
+              class="panel_title"
+              aria-labelledby="panel_title_metrics"
+              tabindex="0"
+            >
+              <b class="lg_metrics"></b>
+            </h1>
+          </div>
+          <!-- top ^ -->
+          <div id="metrics_container" class="container full">
+            <div class="content">
+              <div id="metrics_content"></div>
+              <div id="surveys_content">
+                <div id="surveys_preloader" class="preloader absolute">
+                  <div class="spinner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- bottom v -->
+        </section>
+      </div>
+
+      <!-- CARDS  -->
+      <div id="card" class="panel_page right">
+        <div id="card_preloader" class="preloader absolute">
+          <div id="card_preloader_spinner" class="spinner"></div>
+        </div>
+
+        <!-- entity CARD  -->
+        <section
+          id="entity_card"
+          aria-labelledby="card_title_entities"
+          class="mode001 m_mode1"
+        >
+          <div class="header">
+            <div class="panel_top">
+              <h1 class="panel_title" id="card_title_entities" tabindex="0">
+                <span class="title_location lgr_entity"></span>
+                <b class="title_object" id="entity_card_header"></b>
+              </h1>
+            </div>
+          </div>
+          <div id="entity_card_top" class="animate1 top_bar"></div>
+          <!-- top ^ -->
+          <div class="container">
+            <div id="entity_card_content" class="content"></div>
+          </div>
+          <!-- bottom v -->
+          <div id="entity_card_bottom" class="animate1 bottom_bar"></div>
+          <div id="entity_card_footer" class="footer"></div>
+        </section>
+
+        <!-- GROUP CARD  -->
+        <section
+          id="group_card"
+          aria-labelledby="card_title_group"
+          class="card_section mode001 m_mode0"
+        >
+          <div class="header">
+            <div class="panel_top">
+              <h1 class="panel_title" id="card_title_group" tabindex="0">
+                <span class="title_location lgr_group"></span>
+                <b class="title_object" id="group_card_header"></b>
+              </h1>
+            </div>
+          </div>
+          <div id="group_card_top" class="animate1 top_bar"></div>
+          <!-- top ^ -->
+          <div class="container">
+            <div id="group_card_content" class="content"></div>
+            <div id="group_card_related" class="list"></div>
+          </div>
+          <!-- bottom v -->
+          <div id="group_card_bottom" class="bottom_bar"></div>
+          <div id="group_card_footer" class="footer"></div>
+        </section>
+
+        <!-- COLLECTION CARD  -->
+        <section
+          id="collection_card"
+          aria-labelledby="card_title_collection"
+          class="card_section mode001 m_mode0"
+        >
+          <div class="header">
+            <div class="panel_top">
+              <h1 class="panel_title" id="card_title_collection" tabindex="0">
+                <span class="title_location lgr_collection"></span>
+                <b class="title_object" id="collection_card_header"></b>
+              </h1>
+            </div>
+          </div>
+          <div id="collection_card_top" class="animate1 top_bar"></div>
+          <!-- top ^ -->
+          <div class="container">
+            <div id="collection_card_content" class="content"></div>
+            <div id="collection_card_related" class="list"></div>
+          </div>
+          <!-- bottom v -->
+          <div id="collection_card_bottom" class="animate1 bottom_bar"></div>
+          <div id="collection_card_footer" class="footer"></div>
+        </section>
+
+        <!-- SCENARIO CARD  -->
+        <section
+          id="scenario_card"
+          aria-labelledby="card_title_scenario"
+          class="card_section mode001 m_mode0"
+        >
+          <div class="header">
+            <div class="panel_top">
+              <h1 class="panel_title" id="card_title_scenario" tabindex="0">
+                <span class="title_location lgr_scenario"></span>
+                <b class="title_object" id="scenario_card_header"></b>
+              </h1>
+            </div>
+          </div>
+          <div id="scenario_card_top" class="animate1 top_bar"></div>
+          <!-- top ^ -->
+          <div class="container">
+            <div id="scenario_card_content" class="content"></div>
+            <div id="scenario_card_related" class="list"></div>
+          </div>
+          <!-- bottom v -->
+          <div id="scenario_card_bottom" class="animate1 bottom_bar"></div>
+          <div id="scenario_card_footer" class="footer"></div>
+        </section>
+
+        <!-- TAG CARD  -->
+        <section
+          id="tag_card"
+          aria-labelledby="card_title_tag"
+          class="card_section mode001 m_mode0"
+        >
+          <div class="header">
+            <div class="panel_top">
+              <h1 class="panel_title" id="card_title_tag" tabindex="0">
+                <span class="title_location lgr_tag"></span>
+                <b class="title_object" id="tag_card_header"></b>
+              </h1>
+            </div>
+          </div>
+
+          <div id="tag_card_top" class="animate1 top_bar"></div>
+          <!-- top ^ -->
+          <div class="container">
+            <div id="tag_card_content" class="content"></div>
+            <div id="tag_card_related" class="list"></div>
+          </div>
+          <!-- bottom v -->
+          <div id="tag_card_bottom" class="animate1 bottom_bar"></div>
+          <div id="tag_card_footer" class="footer"></div>
+        </section>
+        <button
+          tabindex="0"
+          role="link"
+          aria-label="Go back"
+          id="left_panel_back"
+          class="panel_bt back animate1 icon21 icon-arrLeft21"
+        ></button>
+      </div>
+      <!-- / panel RIGHT  -->
+    </div>
+    <!-- / panel  -->
+    <button
+      tabindex="0"
+      role="link"
+      aria-label="Close Panel"
+      id="left_panel_x"
+      class="panel_bt close animate1 icon21 icon-x21"
+    ></button>
+  </div>
+  <!-- / CONTAINER  -->
+
+  <!-- CHART -->
+  <section id="chart" aria-label="Radar interactive chart." aria-hidden="false">
+    <div
+      id="radar-screen-reader-region-before"
+      aria-label="Radar screen reader information."
+      role="region"
+      aria-hidden="false"
+      class="visually-hidden"
+    >
+      <div aria-hidden="false" class="visually-hidden">
+        <h2 id="radar_a11y_title"></h2>
+        <div id="radar_a11y_description"></div>
+      </div>
+    </div>
+    <div id="svg_container"></div>
+    <div class="floating top" aria-hidden="true">
+      <!-- loading_feedback -->
+      <div id="loading_feedback" class="shadow animate2" aria-hidden="true">
+        <div
+          id="loading_feedback_lb"
+          class="lg_loading"
+          aria-hidden="true"
+        ></div>
+        <div class="preloader sm" aria-hidden="true">
+          <div class="spinner" aria-hidden="true"></div>
+        </div>
+        <div id="loading_feedback_num" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div class="floating bottom" role="region" aria-label="Radar Options">
+      <!-- lamp -->
+      <div id="lamp" class="shadow animate2" aria-hidden="true">
+        <div
+          id="lamp_icon"
+          class="lamp_item icon15 icon-highlight15"
+          aria-hidden="true"
+        ></div>
+        <div id="lamp_label" aria-hidden="true">
+          <span id="lamp_location" aria-hidden="true"></span>
+          <span id="lamp_title" aria-hidden="true"></span>
+        </div>
+        <div
+          id="lamp_x"
+          class="lamp_item icon15 icon-xCF15"
+          aria-hidden="true"
+        ></div>
+      </div>
+      <!-- options -->
+      <!-- <button role="button" aria-controls="options"  aria-expanded="false" id="a11y_options_toggle_button" aria-hidden="false" class="visually-hidden" aria-label="Radar Options Toggle"></button> -->
+      <div id="options" aria-hidden="false" class="shadow animate2">
+        <div id="options_top" tabindex="-1">
+          <div
+            id="options_toggle_button"
+            tabindex="0"
+            role="button"
+            aria-controls="options_ui"
+            aria-expanded="false"
+            id="options_toggle_button"
+            aria-hidden="false"
+            aria-label="Open Radar Controls tablist."
+          ></div>
+          <ul
+            id="options_menu"
+            aria-label="Radar controls tabs"
+            role="tablist"
+            aria-hidden="true"
+            class="animate2"
+          ></ul>
+        </div>
+        <div id="options_ui" style="display: none">
+          <div id="options_ui_top">
+            <div id="options_title" tabindex="-1" aria-hidden="true"></div>
+            <div
+              id="options_a11y_description"
+              class="visually-hidden"
+              tabindex="-1"
+              aria-hidden="true"
+            ></div>
+          </div>
+          <div id="options_lists"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="radar-end-of-chart-marker"
+      aria-hidden="false"
+      class="visually-hidden"
+    >
+      End of interactive chart.
+    </div>
+  </section>
+
+  <!-- A11Y Announce Region-->
+  <div
+    id="a11y-announce-polite"
+    tabindex="-1"
+    aria-live="polite"
+    class="visually-hidden"
+  ></div>
+</div>
+
+    
+    <script
+      
+      src="app/app.js"
+    ></script>
+    <!-- app -->
+  </body>
+</html>

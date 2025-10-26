@@ -1,0 +1,29 @@
+{
+    "data": {
+        "entity": {
+            "id": "4Fu4s98fnqCVw4fgl",
+            "name": "AI Security Scan",
+            "synonyms": [""
+            ],
+            "imageId": "s3/images/AISECURITYSCAN",
+            "description": {
+                "shortText": "AI technology has the potentials to sharpen up and enhance the security at the landside area of airports. Existing commercially available systems use a combination of camera, facial recognition and millimeter-wave technologies to scan people walking through a portable security gate. Machine learning techniques are used to automatically analyze data for threats, including explosives and firearms, while ignoring non-dangerous items – for example keys and belt buckles – customers/passengers may be carrying."
+            },
+            "attachments": [
+                {
+                    "id": "4sMTPkCSdS4uCABcSDD",
+                    "name": "Tech Trends 2022",
+                    "description": "Deloitte’s 13th annual Tech Trends report provides insights and inspiration to unlock innovation, build trust, and engineer advantage for your digital journey ahead. We invite you to explore the seven trends.",
+                    "createdAt": "2020-09-02T04:02:45.730Z",
+                    "type": "report",
+                    "from": "web",
+                    "web": {
+                        "sourceUrl": "https://www2.deloitte.com/ge/en/insights/tech-trends1.html",
+                        "thumbnailUrl": "https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/oaen20/2019/oaen20.v006.i01/oaen20.v006.i01/20190108-01/oaen20.v006.i01.cover.jpg"
+                    },
+                    "file": null
+                }
+            ]
+        }
+    }
+}

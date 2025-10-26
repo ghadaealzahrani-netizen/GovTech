@@ -1,6 +1,46 @@
 {
   "feedback_modal": [],
 
+  "success_stories_global": [
+    {
+      "module": "section_title",
+      "margin": false,
+      "tx": "global_success_stories"
+    },
+    {
+      "module": "text",
+      "margin": "md",
+      "src": "global_success_intro",
+      "section": false,
+      "auto_links": false
+    },
+    {
+      "module": "list_array",
+      "margin": "lg",
+      "src": "global_success_items"
+    }
+  ],
+
+  "success_stories_local": [
+    {
+      "module": "section_title",
+      "margin": false,
+      "tx": "local_success_stories"
+    },
+    {
+      "module": "text",
+      "margin": "md",
+      "src": "local_success_intro",
+      "section": false,
+      "auto_links": false
+    },
+    {
+      "module": "list_array",
+      "margin": "lg",
+      "src": "local_success_items"
+    }
+  ],
+
   "welcome": {
     "page_mode": "single_page",
     "modules": [{
@@ -27,6 +67,24 @@
           }
         ],
         "size": "md"
+      },
+      {
+        "module": "button",
+        "margin": "lg",
+        "label": "global_success_stories",
+        "size": "lg",
+        "mode": "internal",
+        "dest": "success_stories_global",
+        "icon": false
+      },
+      {
+        "module": "button",
+        "margin": "md",
+        "label": "local_success_stories",
+        "size": "lg",
+        "mode": "internal",
+        "dest": "success_stories_local",
+        "icon": false
       },
       {
         "module": "text",
